@@ -40,6 +40,24 @@
             "remember_me": "Recuérdame",
             "hero_title": "Controla tu futuro financiero",
             "hero_subtitle": "Gestiona tus ingresos y gastos de forma inteligente en un solo lugar."
+        },
+        "register": {
+            "title": "Crea tu cuenta",
+            "subtitle": "Únete a la nueva era financiera",
+            "name_label": "Nombre Completo",
+            "name_hint": "Tu nombre y apellido",
+            "email_label": "Tu Correo Electrónico",
+            "email_hint": "ejemplo@correo.com",
+            "password_label": "Tu Contraseña",
+            "password_hint": "Mínimo 8 caracteres",
+            "confirm_password_label": "Confirma tu Contraseña",
+            "confirm_password_hint": "Repite tu contraseña",
+            "submit": "Crear Cuenta",
+            "already_have_account": "¿Ya tienes cuenta?",
+            "login": "Inicia Sesión",
+            "terms": "Al registrarte, aceptas nuestros Términos y Condiciones.",
+            "hero_title": "Tu patrimonio bajo control",
+            "hero_subtitle": "La metodología de base cero ahora en la palma de tu mano."
         }
     },
     "construction": {

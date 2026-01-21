@@ -299,3 +299,34 @@
 2026-01-20 21:47:18,370 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
 2026-01-20 21:47:19,520 - root - INFO - Navigating to /construction -> views.pages.construction_view.ConstructionView
 2026-01-20 21:47:20,740 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-20 21:58:24,865 - root - INFO - Navigating to /construction -> views.pages.construction_view.ConstructionView
+2026-01-20 21:58:26,234 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-20 21:58:28,113 - root - INFO - Navigating to /construction -> views.pages.construction_view.ConstructionView
+2026-01-20 21:58:30,883 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-20 21:58:32,067 - root - INFO - Navigating to /construction -> views.pages.construction_view.ConstructionView
+2026-01-20 21:58:33,465 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-20 22:08:42,175 - root - INFO - Navigating to /construction -> views.pages.construction_view.ConstructionView
+2026-01-20 22:08:43,810 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-20 22:11:51,832 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-20 22:11:51,833 - flet_web.fastapi - INFO - Deleting temp dir: C:\Users\USUARIO\AppData\Local\Temp\tmpmy79w5x6
+2026-01-20 22:11:51,835 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-21 08:46:54,320 - root - INFO - Starting PowerFin...
+2026-01-21 08:46:54,322 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 08:47:43,598 - root - INFO - Navigating to /construction -> views.pages.construction_view.ConstructionView
+2026-01-21 08:47:45,291 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 08:47:46,940 - root - INFO - Navigating to /construction -> views.pages.construction_view.ConstructionView
+2026-01-21 08:47:49,908 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 08:47:51,209 - root - INFO - Navigating to /construction -> views.pages.construction_view.ConstructionView
+2026-01-21 08:47:52,694 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 08:49:42,445 - flet_web.fastapi - INFO - Session disconnected: _b0pLRTggAZhz1hN4_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 08:49:42,445 - flet_web.fastapi - INFO - Disposing FletApp: 8vzFdSMD
+2026-01-21 08:49:42,553 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-21 08:49:42,553 - flet_web.fastapi - INFO - Deleting temp dir: C:\Users\USUARIO\AppData\Local\Temp\tmpxbmsutjz
+2026-01-21 08:49:42,553 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-21 08:59:51,866 - root - INFO - Starting PowerFin...
+2026-01-21 08:59:51,868 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 09:00:58,368 - flet_web.fastapi - INFO - New FletApp: zrwi6qbf
+2026-01-21 09:00:58,389 - flet_web.fastapi - INFO - New session created (2 total): _aOQ3sSgPakyTbIc2_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 09:00:58,415 - flet_web.fastapi - INFO - Start session: aOQ3sSgPakyTbIc2
+2026-01-21 09:00:58,428 - root - INFO - Starting PowerFin...
+2026-01-21 09:00:58,434 - root - INFO - Navigating to / -> views.pages.login_view.LoginView

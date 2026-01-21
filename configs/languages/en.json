@@ -40,6 +40,24 @@
             "remember_me": "Remember Me",
             "hero_title": "Control your financial future",
             "hero_subtitle": "Manage your income and expenses intelligently in one place."
+        },
+        "register": {
+            "title": "Create your account",
+            "subtitle": "Join the new financial era",
+            "name_label": "Full Name",
+            "name_hint": "Your first and last name",
+            "email_label": "Your Email",
+            "email_hint": "example@email.com",
+            "password_label": "Your Password",
+            "password_hint": "Minimum 8 characters",
+            "confirm_password_label": "Confirm your Password",
+            "confirm_password_hint": "Repeat your password",
+            "submit": "Create Account",
+            "already_have_account": "Already have an account?",
+            "login": "Log In",
+            "terms": "By registering, you agree to our Terms and Conditions.",
+            "hero_title": "Your wealth under control",
+            "hero_subtitle": "Zero-base methodology now in the palm of your hand."
         }
     },
     "construction": {

@@ -166,7 +166,7 @@ class LoginView:
                         ft.Text(I18n.t("auth.login.no_account"), color=ft.Colors.GREY_500, size=13),
                         ft.TextButton(
                             content=ft.Text(I18n.t("auth.login.register"), color=LINK_BLUE, weight=ft.FontWeight.BOLD, size=13),
-                            on_click=lambda _: self.router.navigate("/construction")
+                            on_click=lambda _: self.router.navigate("/register")
                         )
                     ], alignment=ft.MainAxisAlignment.CENTER),
 

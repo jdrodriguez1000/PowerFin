@@ -1,0 +1,65 @@
+from core.database import Database
+from core.logger import Logger
+import flet as ft
+
+class AuthService:
+    def __init__(self):
+        self.db = Database.get_client()
+
+    def sign_up(self, email, password, full_name):
+        """
+        Registers a new user in Supabase Auth.
+        The trigger in the database will handle profile creation.
+        """
+        try:
+            Logger.info(f"Attempting signup for: {email}")
+            res = self.db.auth.sign_up({
+                "email": email,
+                "password": password,
+                "options": {
+                    "data": {
+                        "full_name": full_name
+                    }
+                }
+            })
+            Logger.info(f"Signup successful for: {email}")
+            return {"success": True, "user": res.user}
+        except Exception as e:
+            error_msg = str(e)
+            Logger.error(f"Signup error: {error_msg}")
+            return {"success": False, "error": error_msg}
+
+    def sign_in(self, email, password):
+        """
+        Authenticates a user.
+        """
+        try:
+            Logger.info(f"Attempting login for: {email}")
+            res = self.db.auth.sign_in_with_password({
+                "email": email,
+                "password": password
+            })
+            Logger.info(f"Login successful for: {email}")
+            return {"success": True, "user": res.user, "session": res.session}
+        except Exception as e:
+            error_msg = str(e)
+            Logger.error(f"Login error: {error_msg}")
+            return {"success": False, "error": error_msg}
+
+    def sign_out(self):
+        """
+        Logs out the current user.
+        """
+        try:
+            self.db.auth.sign_out()
+            Logger.info("User signed out.")
+            return True
+        except Exception as e:
+            Logger.error(f"Signout error: {str(e)}")
+            return False
+
+    def get_current_user(self):
+        """
+        Returns the current authenticated user if exists.
+        """
+        return self.db.auth.get_user()
