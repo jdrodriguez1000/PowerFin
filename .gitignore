@@ -1,0 +1,11 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.flet-assets/
+fleting.log
+assets/imgs/login_bg.png
+# Keep images if needed, but usually we exclude large binaries or ignore them if they are small.
+# Given this is a small project, I'll keep the image but ignore venv.
