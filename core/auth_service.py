@@ -6,21 +6,25 @@ class AuthService:
     def __init__(self):
         self.db = Database.get_client()
 
-    def sign_up(self, email, password, full_name):
+    def sign_up(self, email, password, full_name, redirect_to=None):
         """
         Registers a new user in Supabase Auth.
         The trigger in the database will handle profile creation.
         """
         try:
             Logger.info(f"Attempting signup for: {email}")
+            options = {
+                "data": {
+                    "full_name": full_name
+                }
+            }
+            if redirect_to:
+                options["email_redirect_to"] = redirect_to
+
             res = self.db.auth.sign_up({
                 "email": email,
                 "password": password,
-                "options": {
-                    "data": {
-                        "full_name": full_name
-                    }
-                }
+                "options": options
             })
             Logger.info(f"Signup successful for: {email}")
             return {"success": True, "user": res.user}
@@ -35,10 +39,12 @@ class AuthService:
         """
         try:
             Logger.info(f"Attempting login for: {email}")
-            res = self.db.auth.sign_in_with_password({
-                "email": email,
-                "password": password
-            })
+            res = self.db.auth.sign_in_with_password(
+                {
+                    "email": email,
+                    "password": password
+                }
+            )
             Logger.info(f"Login successful for: {email}")
             return {"success": True, "user": res.user, "session": res.session}
         except Exception as e:

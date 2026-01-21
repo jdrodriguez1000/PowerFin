@@ -9,13 +9,23 @@ class Router:
         self.current_route = None
 
     def navigate(self, route_path):
-        if route_path not in ROUTE_MAP:
-            Logger.error(f"Route not found: {route_path}")
-            # Could show a 404 view here
-            return
+        # Sanitize route: remove everything after '#' or '?' to handle Supabase redirects
+        clean_path = route_path.split("#")[0].split("?")[0]
+        
+        # If path is empty (just the hash was present) or only "/", default to "/"
+        if not clean_path or clean_path == "":
+            clean_path = "/"
+            
+        if clean_path not in ROUTE_MAP:
+            Logger.error(f"Route not found: {clean_path} (Original: {route_path})")
+            # If not found, stay on current or go to root if nothing loaded
+            if not self.current_route:
+                clean_path = "/"
+            else:
+                return
 
-        module_path = ROUTE_MAP[route_path]
-        Logger.info(f"Navigating to {route_path} -> {module_path}")
+        module_path = ROUTE_MAP[clean_path]
+        Logger.info(f"Navigating to {clean_path} -> {module_path}")
         
         try:
             # Dynamic loading of the view

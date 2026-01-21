@@ -57,7 +57,35 @@
             "login": "Log In",
             "terms": "By registering, you agree to our Terms and Conditions.",
             "hero_title": "Your wealth under control",
-            "hero_subtitle": "Zero-base methodology now in the palm of your hand."
+            "hero_subtitle": "Zero-base methodology now in the palm of your hand.",
+            "success": {
+                "title": "Almost there!",
+                "message": "We've sent a confirmation link to:\n{email}",
+                "instruction": "Please check your inbox (and spam folder) to activate your account.",
+                "login_button": "Go to Login"
+            },
+            "errors": {
+                "email_taken": "This email address is already registered.",
+                "unexpected": "An unexpected error occurred. Please try again."
+            }
+        }
+    },
+    "profile": {
+        "title": "My Profile",
+        "subtitle": "Complete your personal information",
+        "save_success": "Profile updated successfully",
+        "fields": {
+            "name": "Full Name",
+            "birth_date": "Birth Date",
+            "gender": "Gender",
+            "civil_status": "Civil Status",
+            "favorite_color": "Favorite Color",
+            "favorite_sport": "Favorite Sport"
+        },
+        "genders": {
+            "male": "Male",
+            "female": "Female",
+            "other": "Other"
         }
     },
     "construction": {
@@ -72,5 +100,11 @@
     "errors": {
         "not_found": "Page not found",
         "generic": "An unexpected error occurred"
+    },
+    "validation": {
+        "name_invalid": "Enter your full name (min. 3 characters)",
+        "email_invalid": "Enter a valid email address",
+        "password_short": "Password must be at least 8 characters",
+        "passwords_mismatch": "Passwords do not match"
     }
 }

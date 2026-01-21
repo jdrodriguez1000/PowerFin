@@ -27,15 +27,47 @@
     },
     "auth": {
         "login": {
-            "title": "Entrar",
-            "subtitle": "Acesse sua liberdade financeira",
-            "email_label": "Endereço de E-mail",
+            "title": "Bem-vindo de volta!",
+            "subtitle": "Entre na sua conta",
+            "email_label": "Seu E-mail",
             "email_hint": "exemplo@email.com",
-            "password_label": "Senha",
+            "password_label": "Sua Senha",
             "password_hint": "Digite sua senha",
             "submit": "Entrar",
             "forgot_password": "Esqueceu sua senha?",
-            "no_account": "Não tem uma conta? Junte-se agora"
+            "no_account": "Não tem uma conta?",
+            "register": "Cadastre-se",
+            "remember_me": "Lembrar de mim",
+            "hero_title": "Controle seu futuro financeiro",
+            "hero_subtitle": "Gerencie suas receitas e despesas de forma inteligente em um só lugar."
+        },
+        "register": {
+            "title": "Crie sua conta",
+            "subtitle": "Junte-se à nova era financeira",
+            "name_label": "Nome Completo",
+            "name_hint": "Seu nome e sobrenome",
+            "email_label": "Seu E-mail",
+            "email_hint": "exemplo@email.com",
+            "password_label": "Sua Senha",
+            "password_hint": "Mínimo 8 caracteres",
+            "confirm_password_label": "Confirme sua Senha",
+            "confirm_password_hint": "Repita sua senha",
+            "submit": "Criar Conta",
+            "already_have_account": "Já tem una conta?",
+            "login": "Faça Login",
+            "terms": "Ao se cadastrar, você concorda com nossos Termos e Condições.",
+            "hero_title": "Seu patrimônio sob controle",
+            "hero_subtitle": "A metodologia de base zero agora na palma da sua mão.",
+            "success": {
+                "title": "Quase pronto!",
+                "message": "Enviamos um link de confirmação para:\n{email}",
+                "instruction": "Por favor, verifique sua caixa de entrada (e a pasta de spam) para ativar sua conta.",
+                "login_button": "Ir para o Login"
+            },
+            "errors": {
+                "email_taken": "Este endereço de e-mail já está registrado.",
+                "unexpected": "Ocorreu um erro inesperado. Tente novamente."
+            }
         }
     },
     "construction": {
@@ -50,5 +82,11 @@
     "errors": {
         "not_found": "Página não encontrada",
         "generic": "Ocorreu um error inesperado"
+    },
+    "validation": {
+        "name_invalid": "Insira seu nome completo (mín. 3 caracteres)",
+        "email_invalid": "Insira um endereço de e-mail válido",
+        "password_short": "A senha deve ter pelo menos 8 caracteres",
+        "passwords_mismatch": "As senhas não coincidem"
     }
 }

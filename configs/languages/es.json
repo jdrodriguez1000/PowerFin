@@ -51,13 +51,41 @@
             "password_label": "Tu Contraseña",
             "password_hint": "Mínimo 8 caracteres",
             "confirm_password_label": "Confirma tu Contraseña",
-            "confirm_password_hint": "Repite tu contraseña",
+            "confirm_password_hint": "Repita tu contraseña",
             "submit": "Crear Cuenta",
             "already_have_account": "¿Ya tienes cuenta?",
             "login": "Inicia Sesión",
             "terms": "Al registrarte, aceptas nuestros Términos y Condiciones.",
             "hero_title": "Tu patrimonio bajo control",
-            "hero_subtitle": "La metodología de base cero ahora en la palma de tu mano."
+            "hero_subtitle": "La metodología de base cero ahora en la palma de tu mano.",
+            "success": {
+                "title": "¡Casi listo!",
+                "message": "Hemos enviado un enlace de confirmación a:\n{email}",
+                "instruction": "Por favor, revisa tu bandeja de entrada (y la carpeta de spam) para activar tu cuenta.",
+                "login_button": "Ir al Inicio de Sesión"
+            },
+            "errors": {
+                "email_taken": "Este correo electrónico ya está registrado.",
+                "unexpected": "Ocurrió un error inesperado. Inténtalo de nuevo."
+            }
+        }
+    },
+    "profile": {
+        "title": "Mi Perfil",
+        "subtitle": "Completa tu información personal",
+        "save_success": "Perfil actualizado con éxito",
+        "fields": {
+            "name": "Nombre Completo",
+            "birth_date": "Fecha de Nacimiento",
+            "gender": "Género",
+            "civil_status": "Estado Civil",
+            "favorite_color": "Color Favorito",
+            "favorite_sport": "Deporte Favorito"
+        },
+        "genders": {
+            "male": "Masculino",
+            "female": "Femenino",
+            "other": "Otro"
         }
     },
     "construction": {
@@ -72,5 +100,14 @@
     "errors": {
         "not_found": "Página no encontrada",
         "generic": "Ocurrió un error inesperado"
+    },
+    "test": {
+        "fallback": "Esto es un fallback"
+    },
+    "validation": {
+        "name_invalid": "Ingresa tu nombre completo (mín. 3 caracteres)",
+        "email_invalid": "Ingresa un correo electrónico válido",
+        "password_short": "La contraseña debe tener al menos 8 caracteres",
+        "passwords_mismatch": "Las contraseñas no coinciden"
     }
 }

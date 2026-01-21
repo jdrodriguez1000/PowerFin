@@ -334,3 +334,333 @@
 2026-01-21 09:02:55,055 - root - INFO - Initializing Supabase connection...
 2026-01-21 09:02:55,056 - root - WARNING - Supabase URL or Key missing. Database connection not established.
 2026-01-21 09:04:34,690 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-21 09:12:34,889 - flet_web.fastapi - INFO - Session disconnected: _aOQ3sSgPakyTbIc2_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 09:12:34,889 - flet_web.fastapi - INFO - Disposing FletApp: zrwi6qbf
+2026-01-21 09:12:45,854 - root - INFO - Starting PowerFin...
+2026-01-21 09:12:45,854 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 09:12:48,736 - flet_web.fastapi - INFO - Session disconnected: _PeSsu3K0ykfkgIi3_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 09:12:48,736 - flet_web.fastapi - INFO - Disposing FletApp: v0UrKDLb
+2026-01-21 09:12:50,276 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-21 09:12:51,236 - root - INFO - Initializing Supabase connection...
+2026-01-21 09:12:51,237 - root - WARNING - Supabase URL or Key missing. Database connection not established.
+2026-01-21 09:13:19,823 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-21 09:13:22,338 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-21 09:14:14,332 - flet_web.fastapi - INFO - Session disconnected: _vALhxXtXa0B84O7b_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 09:14:14,333 - flet_web.fastapi - INFO - Disposing FletApp: LZ8rCP21
+2026-01-21 09:14:14,436 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-21 09:14:14,436 - flet_web.fastapi - INFO - Deleting temp dir: C:\Users\USUARIO\AppData\Local\Temp\tmp1mx7kea7
+2026-01-21 09:14:14,440 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-21 09:25:14,858 - root - INFO - Starting PowerFin...
+2026-01-21 09:25:14,858 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 09:26:21,236 - flet_web.fastapi - INFO - New FletApp: plJTM85I
+2026-01-21 09:26:21,250 - flet_web.fastapi - INFO - New session created (2 total): _VXOsSqQHHJDQ10sE_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 09:26:21,259 - flet_web.fastapi - INFO - Start session: VXOsSqQHHJDQ10sE
+2026-01-21 09:26:21,261 - root - INFO - Starting PowerFin...
+2026-01-21 09:26:21,268 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 09:29:58,205 - flet_web.fastapi - INFO - New FletApp: TL4F8DM0
+2026-01-21 09:29:58,220 - flet_web.fastapi - INFO - New session created (3 total): _oGU5fxmpvGJsuGTf_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 09:29:58,223 - flet_web.fastapi - INFO - Start session: oGU5fxmpvGJsuGTf
+2026-01-21 09:29:58,224 - root - INFO - Starting PowerFin...
+2026-01-21 09:29:58,225 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 09:32:47,156 - flet_web.fastapi - INFO - Session disconnected: _oGU5fxmpvGJsuGTf_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 09:32:47,156 - flet_web.fastapi - INFO - Disposing FletApp: TL4F8DM0
+2026-01-21 09:32:55,774 - root - INFO - Starting PowerFin...
+2026-01-21 09:32:55,774 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 09:32:58,232 - flet_web.fastapi - INFO - Session disconnected: _RXTqm8mR1Xf9D0v4_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 09:32:58,234 - flet_web.fastapi - INFO - Disposing FletApp: HAn68wbO
+2026-01-21 09:32:59,974 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-21 09:33:00,829 - root - INFO - Initializing Supabase connection...
+2026-01-21 09:33:00,829 - root - WARNING - Supabase URL or Key missing. Database connection not established.
+2026-01-21 09:34:11,262 - root - INFO - Attempting signup for: jdrodriguez1000@gmail.com
+2026-01-21 09:34:11,262 - root - ERROR - Signup error: 'NoneType' object has no attribute 'auth'
+2026-01-21 09:48:44,472 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-21 09:48:44,480 - flet_web.fastapi - INFO - Deleting temp dir: C:\Users\USUARIO\AppData\Local\Temp\tmpeotklj3w
+2026-01-21 09:48:44,494 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-21 09:50:18,514 - root - INFO - Starting PowerFin...
+2026-01-21 09:50:18,518 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 09:50:25,651 - root - INFO - Starting PowerFin...
+2026-01-21 09:50:25,655 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 10:17:22,447 - flet_web.fastapi - INFO - Session disconnected: _O94ER6uwAoJbBPrI_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 10:17:22,451 - flet_web.fastapi - INFO - Disposing FletApp: joFcro3g
+2026-01-21 10:17:22,538 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-21 10:17:22,566 - flet_web.fastapi - INFO - Deleting temp dir: C:\Users\USUARIO\AppData\Local\Temp\tmp_k98adg5
+2026-01-21 10:17:22,580 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-21 10:18:16,007 - root - INFO - Starting PowerFin...
+2026-01-21 10:18:16,008 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 10:18:16,107 - flet_web.fastapi - INFO - Temp dir created for patched index and manifest: C:\Users\USUARIO\AppData\Local\Temp\tmpla_3v_f3
+2026-01-21 10:18:16,108 - flet_web.fastapi - INFO - Web root: C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet_web\web
+2026-01-21 10:18:16,109 - flet_web.fastapi - INFO - Assets dir: C:\Users\USUARIO\Documents\Proyectos\FinancApp\assets
+2026-01-21 10:18:16,523 - flet_web.fastapi - INFO - New FletApp: MAA5u8B4
+2026-01-21 10:18:16,533 - flet_web.fastapi - INFO - New session created (2 total): _xwT3Vx0GO2vkVWtK_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 10:18:16,534 - flet_web.fastapi - INFO - Start session: xwT3Vx0GO2vkVWtK
+2026-01-21 10:18:16,537 - root - INFO - Starting PowerFin...
+2026-01-21 10:18:16,542 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 10:18:59,569 - flet_web.fastapi - INFO - New FletApp: rqyugVI4
+2026-01-21 10:18:59,611 - flet_web.fastapi - INFO - New session created (3 total): _RsmkSoy7uRcE4K6j_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 10:18:59,654 - flet_web.fastapi - INFO - Start session: RsmkSoy7uRcE4K6j
+2026-01-21 10:18:59,700 - root - INFO - Starting PowerFin...
+2026-01-21 10:18:59,723 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 10:22:00,668 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-21 10:22:02,092 - root - INFO - Initializing Supabase connection...
+2026-01-21 10:22:02,484 - root - INFO - Supabase client created successfully.
+2026-01-21 10:28:26,980 - root - INFO - Attempting signup for: test_fix_2@example.com
+2026-01-21 10:28:26,984 - root - ERROR - Signup error: SyncGoTrueClient.sign_up() got an unexpected keyword argument 'email'
+2026-01-21 10:29:55,588 - flet_web.fastapi - INFO - Session disconnected: _w8XlIIybCidsFYG4_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 10:29:55,591 - flet_web.fastapi - INFO - Disposing FletApp: 6ym2g572
+2026-01-21 10:32:29,401 - flet_web.fastapi - INFO - New FletApp: SSb7rWY3
+2026-01-21 10:32:29,423 - flet_web.fastapi - INFO - New session created (4 total): _2VGIvGRwdrfItwzj_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 10:32:29,425 - flet_web.fastapi - INFO - Start session: 2VGIvGRwdrfItwzj
+2026-01-21 10:32:29,427 - root - INFO - Starting PowerFin...
+2026-01-21 10:32:29,427 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 10:41:16,578 - root - INFO - Attempting signup for: test_fix_3@example.com
+2026-01-21 10:41:16,578 - root - ERROR - Signup error: SyncGoTrueClient.sign_up() got an unexpected keyword argument 'email'
+2026-01-21 10:43:02,690 - flet_web.fastapi - INFO - New FletApp: JcXPZ41D
+2026-01-21 10:43:02,703 - flet_web.fastapi - INFO - New session created (5 total): _6ImTbXk7GIhj2FOD_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 10:43:02,705 - flet_web.fastapi - INFO - Start session: 6ImTbXk7GIhj2FOD
+2026-01-21 10:43:02,705 - root - INFO - Starting PowerFin...
+2026-01-21 10:43:02,706 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 10:44:20,501 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-21 10:52:59,846 - root - INFO - Attempting signup for: test_fix_3@example.com
+2026-01-21 10:52:59,848 - root - ERROR - Signup error: SyncGoTrueClient.sign_up() got an unexpected keyword argument 'email'
+2026-01-21 10:56:57,553 - flet_web.fastapi - INFO - Session disconnected: _ks2t2rT0OCTNE7Ou_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 10:56:57,556 - flet_web.fastapi - INFO - Disposing FletApp: n95hw2Be
+2026-01-21 10:56:57,652 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-21 10:56:57,654 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-21 10:57:05,943 - flet_web.fastapi - INFO - Session disconnected: _6ImTbXk7GIhj2FOD_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 10:57:05,944 - flet_web.fastapi - INFO - Disposing FletApp: JcXPZ41D
+2026-01-21 10:57:07,323 - flet_web.fastapi - INFO - Session disconnected: _2VGIvGRwdrfItwzj_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 10:57:07,324 - flet_web.fastapi - INFO - Disposing FletApp: SSb7rWY3
+2026-01-21 10:57:08,863 - flet_web.fastapi - INFO - Session disconnected: _RsmkSoy7uRcE4K6j_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 10:57:08,863 - flet_web.fastapi - INFO - Disposing FletApp: rqyugVI4
+2026-01-21 10:57:18,229 - flet_web.fastapi - INFO - Session disconnected: _xwT3Vx0GO2vkVWtK_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 10:57:18,230 - flet_web.fastapi - INFO - Disposing FletApp: MAA5u8B4
+2026-01-21 10:57:29,967 - root - INFO - Starting PowerFin...
+2026-01-21 10:57:29,974 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 10:57:33,163 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-21 10:57:35,283 - root - INFO - Initializing Supabase connection...
+2026-01-21 10:57:36,604 - root - INFO - Supabase client created successfully.
+2026-01-21 10:58:41,318 - root - INFO - Attempting signup for: User1@example.com
+2026-01-21 10:58:51,442 - root - ERROR - Signup error: timed out
+2026-01-21 10:59:34,089 - flet_web.fastapi - INFO - Session disconnected: _dli01iJBeYr49JJm_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 10:59:34,089 - flet_web.fastapi - INFO - Disposing FletApp: MDhZdgzM
+2026-01-21 10:59:34,204 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-21 10:59:34,205 - flet_web.fastapi - INFO - Deleting temp dir: C:\Users\USUARIO\AppData\Local\Temp\tmp1rj1tklr
+2026-01-21 10:59:34,206 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-21 10:59:46,736 - root - INFO - Starting PowerFin...
+2026-01-21 10:59:46,736 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 10:59:50,448 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-21 10:59:51,256 - root - INFO - Initializing Supabase connection...
+2026-01-21 10:59:52,596 - root - INFO - Supabase client created successfully.
+2026-01-21 11:00:31,888 - root - INFO - Attempting signup for: user1@example.com
+2026-01-21 11:00:33,502 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/signup "HTTP/2 400 Bad Request"
+2026-01-21 11:00:33,525 - root - ERROR - Signup error: Email address "user1@example.com" is invalid
+2026-01-21 11:01:22,768 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-21 11:01:25,233 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-21 11:01:55,641 - root - INFO - Attempting signup for: jdrodriguez1000@gmail.com
+2026-01-21 11:01:56,313 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/signup "HTTP/2 200 OK"
+2026-01-21 11:01:56,320 - root - INFO - Signup successful for: jdrodriguez1000@gmail.com
+2026-01-21 11:01:56,322 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-21 11:03:50,343 - flet_web.fastapi - INFO - Session disconnected: _rRymdEWTdKgmidGJ_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 11:03:50,343 - flet_web.fastapi - INFO - Disposing FletApp: Qn4A5Pj0
+2026-01-21 11:03:50,447 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-21 11:03:50,447 - flet_web.fastapi - INFO - Deleting temp dir: C:\Users\USUARIO\AppData\Local\Temp\tmpbw9ksfjb
+2026-01-21 11:03:50,448 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-21 11:03:57,394 - root - INFO - Starting PowerFin...
+2026-01-21 11:03:57,394 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 11:03:59,970 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-21 11:04:01,040 - root - INFO - Initializing Supabase connection...
+2026-01-21 11:04:02,440 - root - INFO - Supabase client created successfully.
+2026-01-21 11:04:33,519 - root - INFO - Attempting signup for: jdrodriguez1000@gmail.com
+2026-01-21 11:04:34,350 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/signup "HTTP/2 200 OK"
+2026-01-21 11:04:34,353 - root - INFO - Signup successful for: jdrodriguez1000@gmail.com
+2026-01-21 11:04:34,353 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-21 11:11:44,010 - flet_web.fastapi - INFO - Session disconnected: _thGrUyuM4CWfyRI5_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 11:11:44,011 - flet_web.fastapi - INFO - Disposing FletApp: 99jdAPgK
+2026-01-21 11:11:44,110 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-21 11:11:44,111 - flet_web.fastapi - INFO - Deleting temp dir: C:\Users\USUARIO\AppData\Local\Temp\tmps4v_29r1
+2026-01-21 11:11:44,114 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-21 11:14:02,828 - root - INFO - Starting PowerFin...
+2026-01-21 11:14:02,830 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 11:14:07,047 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-21 11:14:07,848 - root - INFO - Initializing Supabase connection...
+2026-01-21 11:14:09,101 - root - INFO - Supabase client created successfully.
+2026-01-21 11:14:36,672 - root - INFO - Attempting signup for: jdrodriguez1000@gmail.com
+2026-01-21 11:14:37,662 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/signup "HTTP/2 200 OK"
+2026-01-21 11:14:37,668 - root - INFO - Signup successful for: jdrodriguez1000@gmail.com
+2026-01-21 11:16:54,468 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-21 11:19:31,428 - flet_web.fastapi - INFO - Session disconnected: _fR002dGWhEdjLuKV_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 11:19:31,429 - flet_web.fastapi - INFO - Disposing FletApp: r0qqTKEG
+2026-01-21 11:19:31,534 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-21 11:19:31,535 - flet_web.fastapi - INFO - Deleting temp dir: C:\Users\USUARIO\AppData\Local\Temp\tmpz4tuq367
+2026-01-21 11:19:31,536 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-21 11:20:42,639 - root - INFO - Starting PowerFin...
+2026-01-21 11:20:42,639 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 11:20:53,128 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-21 11:20:53,879 - root - INFO - Initializing Supabase connection...
+2026-01-21 11:20:55,093 - root - INFO - Supabase client created successfully.
+2026-01-21 11:21:29,818 - root - INFO - Attempting signup for: jdrodriguez1000@gmail.com
+2026-01-21 11:21:30,670 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/signup?redirect_to=ws%3A%2F%2F127.0.0.1%3A52311 "HTTP/2 200 OK"
+2026-01-21 11:21:30,673 - root - INFO - Signup successful for: jdrodriguez1000@gmail.com
+2026-01-21 11:21:34,743 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-21 11:24:51,679 - root - INFO - Starting PowerFin...
+2026-01-21 11:24:51,679 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 11:24:54,498 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-21 11:24:55,486 - root - INFO - Initializing Supabase connection...
+2026-01-21 11:24:57,003 - root - INFO - Supabase client created successfully.
+2026-01-21 11:25:25,302 - flet - ERROR - Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\messaging\session.py", line 193, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\controls\base_control.py", line 342, in _trigger_event
+    event_handler(e)
+  File "C:\Users\USUARIO\Documents\Proyectos\FinancApp\views\pages\register_view.py", line 106, in handle_register
+    Logger.info(f"Sanitized redirect URL for Supabase: {redirect_url}")
+    ^^^^^^
+NameError: name 'Logger' is not defined
+2026-01-21 11:27:48,284 - flet_web.fastapi - INFO - New FletApp: oURr59Tm
+2026-01-21 11:27:48,292 - flet_web.fastapi - INFO - New session created (2 total): _NPLD1BxSI8IpyuhV_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 11:27:48,298 - flet_web.fastapi - INFO - Start session: NPLD1BxSI8IpyuhV
+2026-01-21 11:27:48,301 - root - INFO - Starting PowerFin...
+2026-01-21 11:27:48,303 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 11:27:51,345 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-21 11:28:41,770 - flet - ERROR - Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\messaging\session.py", line 193, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\controls\base_control.py", line 342, in _trigger_event
+    event_handler(e)
+  File "C:\Users\USUARIO\Documents\Proyectos\FinancApp\views\pages\register_view.py", line 106, in handle_register
+    # Logger to help debug in terminal
+    ^^^^^^
+NameError: name 'Logger' is not defined
+2026-01-21 11:29:23,544 - flet_web.fastapi - INFO - New FletApp: mymMRYHt
+2026-01-21 11:29:23,557 - flet_web.fastapi - INFO - New session created (3 total): _Ps7UIZHERdIXXcJb_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 11:29:23,560 - flet_web.fastapi - INFO - Start session: Ps7UIZHERdIXXcJb
+2026-01-21 11:29:23,562 - root - INFO - Starting PowerFin...
+2026-01-21 11:29:23,562 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 11:29:26,102 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-21 11:29:56,968 - flet - ERROR - Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\messaging\session.py", line 193, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\controls\base_control.py", line 342, in _trigger_event
+    event_handler(e)
+  File "C:\Users\USUARIO\Documents\Proyectos\FinancApp\views\pages\register_view.py", line 106, in handle_register
+    # Logger to help debug in terminal
+    ^^^^^^
+NameError: name 'Logger' is not defined
+2026-01-21 11:32:11,531 - root - INFO - Starting PowerFin...
+2026-01-21 11:32:11,532 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 11:32:13,541 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-21 11:32:14,314 - root - INFO - Initializing Supabase connection...
+2026-01-21 11:32:15,498 - root - INFO - Supabase client created successfully.
+2026-01-21 11:32:41,480 - root - INFO - Sanitized redirect URL for Supabase: http://127.0.0.1:8551
+2026-01-21 11:32:41,480 - root - INFO - Attempting signup for: jdrodriguez1000+1@gmail.com
+2026-01-21 11:32:42,694 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/signup?redirect_to=http%3A%2F%2F127.0.0.1%3A8551 "HTTP/2 200 OK"
+2026-01-21 11:32:42,697 - root - INFO - Signup successful for: jdrodriguez1000+1@gmail.com
+2026-01-21 11:32:52,403 - flet_web.fastapi - INFO - New FletApp: 8G9D4iSu
+2026-01-21 11:32:52,409 - flet_web.fastapi - INFO - New session created (2 total): _N0zbMRTIjW4ySYHJ_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 11:32:52,414 - flet_web.fastapi - INFO - Start session: N0zbMRTIjW4ySYHJ
+2026-01-21 11:32:52,416 - root - INFO - Starting PowerFin...
+2026-01-21 11:32:52,419 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 11:35:39,084 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-21 11:36:38,131 - root - INFO - Sanitized redirect URL for Supabase: http://127.0.0.1:8551
+2026-01-21 11:36:38,132 - root - INFO - Attempting signup for: jdrodriguez1000+2@gmail.com
+2026-01-21 11:36:38,874 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/signup?redirect_to=http%3A%2F%2F127.0.0.1%3A8551 "HTTP/2 200 OK"
+2026-01-21 11:36:38,876 - root - INFO - Signup successful for: jdrodriguez1000+2@gmail.com
+2026-01-21 11:36:53,389 - flet_web.fastapi - INFO - New FletApp: 66lun7N4
+2026-01-21 11:36:53,398 - flet_web.fastapi - INFO - New session created (3 total): _nx08IvicjFQipwlJ_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 11:36:53,410 - flet_web.fastapi - INFO - Start session: nx08IvicjFQipwlJ
+2026-01-21 11:36:53,414 - root - INFO - Starting PowerFin...
+2026-01-21 11:36:53,414 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 11:41:33,954 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-21 11:41:36,221 - flet - ERROR - Unhandled error in 'on_app_lifecycle_state_change' handler
+Traceback (most recent call last):
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\messaging\session.py", line 193, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\controls\base_control.py", line 344, in _trigger_event
+    await session.after_event(session.index.get(self._i))
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\messaging\session.py", line 258, in after_event
+    await self.__auto_update(control)
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\messaging\session.py", line 270, in __auto_update
+    control.update()
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\controls\page.py", line 448, in update
+    self.__update(self)
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\controls\page.py", line 457, in __update
+    self.session.patch_control(c)
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\messaging\session.py", line 138, in patch_control
+    self.__send_message(
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\messaging\session.py", line 281, in __send_message
+    self.__conn.send_message(message)
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet_web\fastapi\flet_app.py", line 349, in send_message
+    self.__send_queue.put_nowait(m)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'put_nowait'
+2026-01-21 11:41:36,297 - flet_web.fastapi - INFO - Session disconnected: _N0zbMRTIjW4ySYHJ_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 11:41:36,299 - flet_web.fastapi - INFO - Disposing FletApp: 8G9D4iSu
+2026-01-21 11:41:36,301 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-159' coro=<Session.dispatch_event() done, defined at C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\messaging\session.py:181> exception=AttributeError("'NoneType' object has no attribute 'put_nowait'")>
+Traceback (most recent call last):
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\messaging\session.py", line 193, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\controls\base_control.py", line 344, in _trigger_event
+    await session.after_event(session.index.get(self._i))
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\messaging\session.py", line 258, in after_event
+    await self.__auto_update(control)
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\messaging\session.py", line 270, in __auto_update
+    control.update()
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\controls\page.py", line 448, in update
+    self.__update(self)
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\controls\page.py", line 457, in __update
+    self.session.patch_control(c)
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\messaging\session.py", line 138, in patch_control
+    self.__send_message(
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\messaging\session.py", line 281, in __send_message
+    self.__conn.send_message(message)
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet_web\fastapi\flet_app.py", line 349, in send_message
+    self.__send_queue.put_nowait(m)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'put_nowait'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\messaging\session.py", line 196, in dispatch_event
+    self.error(f"{e}\n{traceback.format_exc()}")
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\messaging\session.py", line 275, in error
+    self.__send_message(
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet\messaging\session.py", line 281, in __send_message
+    self.__conn.send_message(message)
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet_web\fastapi\flet_app.py", line 349, in send_message
+    self.__send_queue.put_nowait(m)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'put_nowait'
+2026-01-21 11:42:47,718 - flet_web.fastapi - INFO - Session disconnected: _nx08IvicjFQipwlJ_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 11:42:47,718 - flet_web.fastapi - INFO - Disposing FletApp: 66lun7N4
+2026-01-21 11:42:47,831 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-21 11:42:47,832 - flet_web.fastapi - INFO - Deleting temp dir: C:\Users\USUARIO\AppData\Local\Temp\tmpj5tkduql
+2026-01-21 11:42:47,835 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-21 11:43:04,070 - root - INFO - Starting PowerFin...
+2026-01-21 11:43:04,070 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 11:43:04,166 - flet_web.fastapi - INFO - Temp dir created for patched index and manifest: C:\Users\USUARIO\AppData\Local\Temp\tmpwje4nqyz
+2026-01-21 11:43:04,167 - flet_web.fastapi - INFO - Web root: C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet_web\web
+2026-01-21 11:43:04,168 - flet_web.fastapi - INFO - Assets dir: C:\Users\USUARIO\Documents\Proyectos\FinancApp\assets
+2026-01-21 11:43:04,489 - flet_web.fastapi - INFO - New FletApp: vMrvIGRE
+2026-01-21 11:43:04,496 - flet_web.fastapi - INFO - New session created (2 total): _oAWYDuuvSeQjf0FY_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 11:43:04,501 - flet_web.fastapi - INFO - Start session: oAWYDuuvSeQjf0FY
+2026-01-21 11:43:04,504 - root - INFO - Starting PowerFin...
+2026-01-21 11:43:04,510 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 11:43:07,506 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-21 11:43:08,245 - root - INFO - Initializing Supabase connection...
+2026-01-21 11:43:09,386 - root - INFO - Supabase client created successfully.
+2026-01-21 11:43:45,188 - root - INFO - Sanitized redirect URL for Supabase: http://127.0.0.1:8551
+2026-01-21 11:43:45,195 - root - INFO - Attempting signup for: jdrodriguez1000@gmail.com
+2026-01-21 11:43:45,776 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/signup?redirect_to=http%3A%2F%2F127.0.0.1%3A8551 "HTTP/2 200 OK"
+2026-01-21 11:43:45,780 - root - INFO - Signup successful for: jdrodriguez1000@gmail.com
+2026-01-21 11:47:53,523 - flet_web.fastapi - INFO - Session disconnected: _oAWYDuuvSeQjf0FY_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 11:47:53,524 - flet_web.fastapi - INFO - Disposing FletApp: vMrvIGRE
+2026-01-21 11:47:53,524 - flet_web.fastapi - INFO - Session disconnected: _WqChZrZYXmWgOm7G_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-21 11:47:53,524 - flet_web.fastapi - INFO - Disposing FletApp: SzbQ2O3e
+2026-01-21 11:47:53,642 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-21 11:47:53,642 - flet_web.fastapi - INFO - Deleting temp dir: C:\Users\USUARIO\AppData\Local\Temp\tmpwje4nqyz
+2026-01-21 11:47:53,644 - flet_web.fastapi - INFO - Closing Flet web server...

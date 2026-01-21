@@ -22,10 +22,11 @@
 
 ## Phase 4: User Registration Flow ✅
 - [x] Create Registration View (Split-screen consistent with Login).
-- [x] Implement Supabase signup integration.
-- [x] Add form validation (Email, Password strength).
-- [x] Success/Error feedback handling.
+- [x] Implement Supabase signup integration (with dynamic redirect sanitization).
+- [x] Add form validation (Email, Password strength, confirmation match).
+- [x] Success/Error feedback handling (Elegantly designed success view).
 - [x] Link between Login and Register views.
+- [x] Full I18n support (ES, EN, PT) for all messages and validation.
 
 ## Phase 5: Initial Profile Management ⏳
 - [ ] Base user profile model.

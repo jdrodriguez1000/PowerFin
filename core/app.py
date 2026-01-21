@@ -13,12 +13,17 @@ class FletingApp:
         # Initial device state
         AppState.update_device(self.page.width)
         
-        # Subscribe to resize events
+        # Subscribe to events
         self.page.on_resized = self.on_resize
+        self.page.on_route_change = self.on_route_change
         
-        # Start navigation to initial route
-        self.router.navigate("/")
+        # Start navigation to the actual current route
+        self.router.navigate(self.page.route)
         self.page.update()
+
+    def on_route_change(self, e):
+        Logger.info(f"Route changed to: {self.page.route}")
+        self.router.navigate(self.page.route)
 
     def on_resize(self, e):
         AppState.update_device(self.page.width)
