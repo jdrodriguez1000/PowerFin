@@ -1,0 +1,3 @@
+[console_scripts]
+fleting=fleting.cli.cli:main
+

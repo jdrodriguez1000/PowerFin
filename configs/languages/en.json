@@ -1,0 +1,58 @@
+{
+    "app": {
+        "title": "PowerFin",
+        "welcome": "Welcome to PowerFin",
+        "tagline": "Take total control of your finances. Join a new era of smart management, where every dollar has a purpose and your financial freedom is our priority. Shall we start the journey?"
+    },
+    "common": {
+        "buttons": {
+            "start": "Get Started",
+            "back": "Back",
+            "next": "Next",
+            "save": "Save",
+            "cancel": "Cancel",
+            "login": "Login"
+        },
+        "account_types": {
+            "CASH": "Cash",
+            "SAVINGS": "Savings Account",
+            "CHECKING": "Checking Account",
+            "CREDIT": "Credit Card",
+            "INVESTMENT": "Investment"
+        },
+        "essentiality": {
+            "ESSENTIAL": "Essential",
+            "NON_ESSENTIAL": "Non-Essential"
+        }
+    },
+    "auth": {
+        "login": {
+            "title": "Welcome Back!",
+            "subtitle": "Sign in to your account",
+            "email_label": "Your Email",
+            "email_hint": "example@email.com",
+            "password_label": "Your Password",
+            "password_hint": "Enter your password",
+            "submit": "Login",
+            "forgot_password": "Forgot Password?",
+            "no_account": "Don't have an account?",
+            "register": "Register",
+            "remember_me": "Remember Me",
+            "hero_title": "Control your financial future",
+            "hero_subtitle": "Manage your income and expenses intelligently in one place."
+        }
+    },
+    "construction": {
+        "title": "Under Construction",
+        "message": "We are working hard to bring this feature to you soon.",
+        "back": "Go Back"
+    },
+    "home": {
+        "title": "Home",
+        "content": "Landing Page"
+    },
+    "errors": {
+        "not_found": "Page not found",
+        "generic": "An unexpected error occurred"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "app": {
+        "title": "PowerFin",
+        "welcome": "Bienvenido a PowerFin",
+        "tagline": "Toma el control total de tus finanzas. Únete a una nueva era de gestión inteligente, donde cada peso tiene un propósito y tu libertad financiera es nuestra prioridad. ¿Empezamos el viaje?"
+    },
+    "common": {
+        "buttons": {
+            "start": "Empezar",
+            "back": "Atrás",
+            "next": "Siguiente",
+            "save": "Guardar",
+            "cancel": "Cancelar",
+            "login": "Iniciar Sesión"
+        },
+        "account_types": {
+            "CASH": "Efectivo",
+            "SAVINGS": "Cuenta de Ahorros",
+            "CHECKING": "Cuenta Corriente",
+            "CREDIT": "Tarjeta de Crédito",
+            "INVESTMENT": "Inversión"
+        },
+        "essentiality": {
+            "ESSENTIAL": "Esencial",
+            "NON_ESSENTIAL": "No Esencial"
+        }
+    },
+    "auth": {
+        "login": {
+            "title": "¡Bienvenido de nuevo!",
+            "subtitle": "Ingresa a tu cuenta",
+            "email_label": "Tu Correo Electrónico",
+            "email_hint": "ejemplo@correo.com",
+            "password_label": "Tu Contraseña",
+            "password_hint": "Ingresa tu contraseña",
+            "submit": "Ingresar",
+            "forgot_password": "¿Olvidaste tu contraseña?",
+            "no_account": "¿No tienes cuenta?",
+            "register": "Regístrate",
+            "remember_me": "Recuérdame",
+            "hero_title": "Controla tu futuro financiero",
+            "hero_subtitle": "Gestiona tus ingresos y gastos de forma inteligente en un solo lugar."
+        }
+    },
+    "construction": {
+        "title": "En Construcción",
+        "message": "Estamos trabajando duro para traerte esta funcionalidad muy pronto.",
+        "back": "Volver"
+    },
+    "home": {
+        "title": "Inicio",
+        "content": "Página Principal"
+    },
+    "errors": {
+        "not_found": "Página no encontrada",
+        "generic": "Ocurrió un error inesperado"
+    }
+}

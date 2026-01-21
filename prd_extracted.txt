@@ -1,0 +1,310 @@
+DOCUMENTO DE REQUERIMIENTOS DE PRODUCTO (PRD)
+Producto: PowerFinVersión: 4.1 (Definitiva y Completa - Revisada)Fecha: 5 de abril de 2024 (Revisado: 6 de abril de 2024)Product Owner: [John Rodriguez]Estado: PARA DESARROLLO
+ÍNDICE
+Resumen Ejecutivo
+Visión del Producto
+Objetivos y Métricas (OKRs)
+Principios de Diseño
+Definición de Usuarios
+Alcance y Fases de Lanzamiento
+Historias de Usuario y Requerimientos
+Requerimientos No Funcionales
+Flujos de Usuario Clave (MVP - V1.0)
+Métricas de Éxito y Criterios de Aceptación10.1 Métricas Clave (V1.0)10.2 Criterios de Aceptación (Ejemplo: Instrumentación)
+Roadmap Estratégico
+Aprobaciones
+1. RESUMEN EJECUTIVO
+PowerFin es un sistema operativo para las finanzas personales del colombiano. Más que una app de presupuestos, es un simulador de patrimonio, un automatizador de decisiones y un educador financiero integrado en una sola plataforma. Su innovación radica en convertir conceptos abstractos (interés compuesto, inflación, costo de oportunidad) en proyecciones visuales tangibles, y en proveer un sistema de "piloto automático" que asigna cada peso a un propósito (ahorro, inversión, gastos, deudas), enseñando al usuario la disciplina financiera mediante la experiencia. Diseñado desde Colombia para Colombia, aborda realidades locales como múltiples cuentas y fuentes de ingreso, manejo de tarjetas de crédito, CDT's y la planificación bajo inflación.
+2. VISIÓN DEL PRODUCTO
+"Ser la plataforma esencial para que cualquier persona en Colombia tome el control absoluto de su dinero, transformando la ansiedad financiera en claridad, hábitos automatizados y crecimiento patrimonial tangible, a través de la educación experiencial y el diseño centrado en el comportamiento humano."
+3. OBJETIVOS Y MÉTRICAS (OKRs)
+Objetivo para MVP (V1.0 - Primeros 4 meses):Establecer el "Ciclo de Claridad Financiera" en usuarios nuevos, logrando que automaticen su ahorro, comprendan su seguridad básica y aprendan el costo de la inacción.
+Key Results:
+KR1 (Activación): 75% de los usuarios completa el onboarding registrando al menos una cuenta, creando un Fondo Automático y una categoría de gastos.
+KR2 (Educación): 60% de usuarios activos interactúa con la función de "Ajuste por Inflación" o consulta un concepto del glosario en sus primeras 2 semanas.
+KR3 (Comprensión): 50% de usuarios puede explicar correctamente qué son los "Días de Autonomía" tras 30 días de uso (medido por encuesta en-app).
+KR4 (Valor): Puntuación NPS (Net Promoter Score) ≥ 45 en encuestas post-onboarding.
+4. PRINCIPIOS DE DISEÑO
+Educación Experiencial: Cada funcionalidad debe enseñar. Los números deben contar una historia (pérdidas evitadas, ganancias potenciales).
+Claridad sobre Complejidad: Simplificar lo complejo (ejemplo: inflación, interés compuesto) con visualizaciones y ejemplos personalizados.
+Enfoque en el "Costo de Oportunidad": El mensaje central no es "cuánto ganas", sino "cuánto dejas de ganar o pierdes si no actúas".
+Progreso Tangible: El usuario debe ver avance constante hacia metas claras (ejemplo: de 0 a 180 Días de Autonomía).
+Flexibilidad con Estructura: Permitir personalización (ejemplo: definir gastos esenciales) dentro de un marco que guíe hacia buenas prácticas.
+5. DEFINICIÓN DE USUARIOS
+Persona Primaria: Carlos, el Pragmático (80% del foco)Edad: 30-45 años. Ingreso: Múltiples fuentes ($2.5M salario + $1.2M arriendo = ~$3.7M COP mensuales).Contexto: Tiene dinero disperso. Sabe que debe organizarse, pero le abruma. Combina cuentas inactivas, tarjeta de crédito y posible préstamo.Necesidad Profunda: Un visor unificado, un sistema automático que distribuya sus diversos ingresos, y claridad sobre su seguridad y futuro.Frustración Principal: "Mi dinero está en varios bancos, no sé cuánto tengo en total ni cómo asignarlo. Siento que cada año rinde menos, sé que la inflación me gana, pero no sé cuánto."
+Persona Secundaria: Ana, la Administradora Familiar (20%)Rol: Gestiona el presupuesto del hogar con múltiples ingresos y cuentas.Valor en PowerFin: Visión unificada familiar, fondos compartidos, planificación de metas conjuntas con ajuste por inflación.
+Usuario Interno: Pablo, el Product ManagerRol: responsable del éxito de PowerFin.Necesidad: Datos claros y en tiempo real sobre el comportamiento de los usuarios, tasas de conversión, puntos de fricción y métricas de salud del producto (OKRs) para tomar decisiones informadas de priorización y mejora.
+6. ALCANCE Y FASES DE LANZAMIENTO
+Fase
+Nombre
+Épicas Incluidas
+Descripción
+Lanzamiento Objetivo
+V1.0
+Ciclo de Claridad
+Épica 0, 1, 2, 3, 4, 6 (HU6.1), 9 (HU9.1, HU9.3), 10 (HU10.3 - Solo Instrumentación)
+Núcleo educativo. Onboarding, simulador, registro de gastos (esenciales/no esenciales), fondos automáticos, glosario, insights básicos. Instrumentación completa de eventos para analytics. Toda la app del usuario.
+MVP - Mes 4
+V1.5
+Control Total & Analytics Básico
+Épica 5, 7 (HU7.1,7.2), 8 (HU8.1,8.2), 2 (HU2.3), 9 (HU9.2), 10 (HU10.1, HU10.2)
+Agrega plan de gastos, deudas, tarjetas, automatización avanzada, módulo educativo "Costo de No Invertir". Panel Admin Básico (OKRs y Embudo).
+Mes 6-7
+V2.0
+Optimización & Admin Completo
+Épica 1 (HU1.3), 7 (HU7.3), 8 (HU8.3), 10 (HU10.4, HU10.5)
+Simuladores avanzados (impuestos, deudas, cuotas). Panel Admin Completo (CMS, Gestión de Usuarios).
+Mes 9-10
+V3.0
+Conexión y Comunidad
+APIs Bancarias, Características Sociales, Reportes Avanzados
+Conectividad financiera real y colaboración.
+Año 2
+7. HISTORIAS DE USUARIO Y REQUERIMIENTOS
+ESPECIFICACIÓN ADICIONAL: CATÁLOGO DE INSTRUMENTOS (MVP)
+Definición para las Épicas 1 y 2. Los "Instrumentos" son tipos genéricos con tasas de rendimiento anual fija y simulada.
+Nombre (UI)
+Tasa Anual Simulada
+Descripción
+¿Editable por usuario en MVP?
+Liquidez
+5%
+Simula productos de bajo riesgo y alta disponibilidad (ej: cuentas de ahorro).
+NO. Tasa fija.
+CDT
+8%
+Simula un Certificado de Depósito a Término a plazo fijo.
+NO. Tasa fija.
+Fondo Indexado
+10%
+Simula rendimiento histórico a largo plazo de fondos que siguen un índice. Incluye disclaimer de mayor riesgo.
+NO. Tasa fija.
+ÉPICA 0: ONBOARDING Y CONFIGURACIÓN INICIAL
+Objetivo: Guiar al usuario a un estado de "claridad unificada" y mostrarle su primera gran meta financiera (6 meses de autonomía).
+HU0.1 - Registro Sencillo: Como usuario nuevo, quiero registrarme con mi correo o Google, para comenzar rápidamente.
+RF0.1.1: Registro con email/contraseña (hash bcrypt).
+RF0.1.2: Login social con Google.
+RF0.1.3: Verificación de email.
+HU0.2 - Registro de Cuentas: Como Carlos, quiero registrar al menos una cuenta bancaria para comenzar.
+RF0.2.1: Agregar "Cuenta": Nombre, Tipo (Corriente/Ahorros), Saldo Inicial.
+HU0.3 - Configuración Guiada y Primer Hito: Como Carlos, quiero un tour que capture mis datos y me muestre mi punto de partida hacia los 6 meses de autonomía.
+ESPECIFICACIÓN DE FLUJO (Asistente modal lineal):
+Paso 1 - Bienvenida: Ilustración + texto motivacional. Acción: "Registrar mi Ingreso Principal".
+Paso 2 - Ingreso Recurrente: Formulario con Nombre, Monto Mensual (COP), Fuente (Salario/Arriendo/Otro).
+Paso 3 - Fondo de Emergencia: Explicación educativa de los 180 días. Crear fondo pre-poblado "Fondo de Emergencia" con aporte sugerido (10% del ingreso) e Instrumento "Liquidez".
+Paso 4 - Gastos Esenciales: Explicación. Crear primera categoría de gasto (ej: "Alimentos") con checkbox "Esencial" pre-marcado y explicado.
+Paso 5 - Éxito: Pantalla con widget grande "Tienes 0 DÍAS de Autonomía. Meta: 180 Días" y barra de progreso. Botón "Ir a mi Dashboard".
+RF0.3.1: El flujo es obligatorio para primer acceso. El usuario puede salir con advertencia de experiencia incompleta.
+RF0.3.2: Al finalizar, se disparan los eventos de onboarding para analytics (HU10.3).
+ÉPICA 1: SIMULADOR DE PATRIMONIO INTELIGENTE
+Objetivo: Visualizar el futuro del dinero en todos los plazos para motivar la acción hoy.
+HU1.1 - Proyección de Riqueza Multi-plazo: Como Carlos, quiero proyectar mi acumulación desde 1 mes hasta 20 años.
+RF1.1.1: Slider de ahorro mensual ($10k-$5M COP).
+RF1.1.2: Selector de instrumento (Liquidez 5%, CDT 8%, Fondo Indexado 10%).
+RF1.1.3: Botones de tiempo: 1 MES, 3 MESES, 6 MESES, 1 AÑO, 5 AÑOS, 10 AÑOS, 20 AÑOS.
+RF1.1.4: Cálculo y gráfico de "Total en Pesos Futuros".
+RF1.1.5: Insight por plazo (Ejemplos):
+*Corto (1-6 meses):* "Los intereses de 6 meses equivalen a 2 salidas a comer."
+*Largo (10+ años):* "Este es el poder del interés compuesto. Cada mes que no empiezas, dejas de ganar ~$X,XXX futuros."
+HU1.2 - Impacto de la Inflación: Como Carlos, quiero ver la proyección en "Poder de Compra de Hoy".
+RF1.2.1: Switch "Mostrar Poder de Compra de Hoy (Inflación 4%)".
+RF1.2.2: Cálculo de valor real.
+RF1.2.3: Gráfico comparativo y "Insight de Pérdida Evitada": "Por eso es clave buscar rendimientos que superen la inflación."
+HU1.3 - Estimado de Impuestos (V2.0): Como Carlos, quiero una aproximación del impacto del impuesto a la renta en mis rendimientos.
+RF1.3.1: Switch "Incluir estimado de impuestos (~10%)".
+RF1.3.2: Cálculo de interés neto.
+RF1.3.3: Leyenda educativa.
+ÉPICA 2: AUTOMATIZACIÓN - FONDOS CON PROPÓSITO Y RENDIMIENTO
+Objetivo: Crear el "piloto automático" que asigna y hace crecer el dinero.
+HU2.1 - Fondos que Generan: Como Carlos, quiero crear fondos para metas que generen un rendimiento simulado.
+RF2.1.1: Crear fondo con: Nombre, Meta (opc), Instrumento (5%,8%,10%), Regla Automática (% o monto fijo por ingreso).
+RF2.1.2: Cálculo diario de intereses compuestos por fondo.
+RF2.1.3: Dashboard con saldo total (capital+intereses).
+HU2.2 - Convertir Simulación en Realidad: Como Carlos, quiero crear un fondo automático desde una simulación con un clic.
+RF2.2.1: Botón "Crear Fondo con esta Proyección".
+RF2.2.2: Modal pre-poblado.
+HU2.3 - Automatización Avanzada por Fuente (V1.5): Como Carlos, quiero que las reglas se activen según el tipo de ingreso.
+RF2.3.1: Disparador de regla: "Con ingresos de la fuente: [Salario/Arriendo/etc.]".
+ÉPICA 3: PANORAMA FINANCIERO UNIFICADO Y REGISTRO
+Objetivo: Dar una visión holística y actualizada de TODAS las cuentas y el flujo, con distinción clara de gastos esenciales.
+HU3.1 - Registro Ágil de Transacciones: Como Carlos, quiero registrar ingresos y gastos rápidamente, clasificando los gastos como esenciales o no.
+RF3.1.1: Botón "+" flotante. Campos: Monto, Tipo, Cuenta, Categoría de Gasto, Fecha.
+RF3.1.2: Al seleccionar/crear una categoría de GASTO, poder marcar/desmarcar un checkbox "Esencial" (ejemplo: "Alimentos" [✓Esencial], "Suscripciones" [ ]).
+RF3.1.3: Las categorías marcadas como "Esencial" se usan para el cálculo de "Días de Autonomía".
+HU3.2 - Registro de Ingresos por Fuente: Como Carlos, quiero registrar mis ingresos especificando de dónde vienen.
+RF3.2.1: Al registrar ingreso, campos: Monto, Cuenta de Destino, Fuente (lista personalizable), Fecha.
+HU3.3 - Dashboard de Salud Unificado: Como Carlos, quiero ver en mi pantalla principal un panorama completo.
+RF3.3.1: Widget "Tu Patrimonio Líquido".
+RF3.3.2: Sección "Tu Proyección de Riqueza".
+RF3.3.3: Widget "Tu Seguridad: [X] DÍAS / Meta: 180" con barra de progreso clara hacia 180 días.
+RF3.3.4: Sección "Tus Cuentas y Fondos".
+ÉPICA 4: EDUCACIÓN CONTEXTUAL Y HÁBITOS
+Objetivo: Enseñar sin esfuerzo mediante insights oportunos y celebración.
+HU4.1 - Insights Accionables: Como Carlos, quiero recibir tips breves basados en mis acciones.
+RF4.1.1: Sistema de reglas para insights (Especificado): El sistema evaluará reglas predefinidas y mostrará cards en la sección "Tus Insights" del Dashboard.
+*Regla 1 - Primer Aporte:* Celebrar primer aporte a cualquier fondo. Mensaje sobre interés compuesto.
+*Regla 2 - Gastos No Esenciales:* Al registrar 3+ gastos no esenciales en 24h, sugerir revisar categoría.
+*Regla 3 - Autonomía Creciente:* Celebrar incremento del 10%+ en Días de Autonomía.
+*Regla 4 - Saldo Inactivo (Vinculada a HU9.3):* Alertar si >50% del patrimonio está inactivo en cuentas, mostrando costo de oportunidad y botón para crear regla.
+HU4.2 - Celebración de Logros: Como Carlos, quiero que la app celebre mis hitos.
+RF4.2.1: Logros/badges por hitos (ejemplo: "Primera semana de autonomía", "Meta de 30 días alcanzada").
+ÉPICA 5: GESTIÓN ACTIVA DE FLUJO DE CAJA (PRESUPUESTO DE CAJA) - V1.5
+Objetivo: Controlar el dinero líquido con un plan asignativo proactivo.
+HU5.1 - Plan de Gastos: Como Carlos, quiero asignar montos planificados a categorías de gasto (esenciales y no esenciales).
+RF5.1.1: Asignar "Monto Mensual Planificado" a cada categoría.
+RF5.1.2: Cálculo del "Total Disponible para Gastos".
+HU5.2 - Control en Tiempo Real: Como Carlos, al registrar un gasto quiero ver cuánto me queda en esa categoría.
+RF5.2.1: Mostrar "Presupuesto - Gastado - Disponible".
+RF5.2.2: Alerta si excede.
+HU5.3 - Reasignación Flexible: Como Carlos, si me paso del presupuesto, quiero cubrir el excedente.
+RF5.3.1: Opciones: "Tomar de otra categoría", "Reducir próximo aporte a fondo".
+ÉPICA 6: MÉTRICAS DE SALUD FINANCIERA INTELIGENTE
+Objetivo: Proporcionar métricas simples pero profundas sobre la seguridad financiera.
+HU6.1 - Días de Autonomía (CORE - MVP): Como Carlos, quiero saber cuántos días de mis gastos esenciales puedo cubrir con mi Fondo de Emergencia, y ver mi progreso hacia 6 meses (180 días).
+RF6.1.1: El sistema identifica gastos esenciales por la marca en cada categoría (HU3.1).
+RF6.1.2: Calcula "Gasto Diario Promedio Esencial" basado solo en transacciones marcadas como esenciales.
+RF6.1.3: Designar un fondo o cuenta como "Fondo de Emergencia".
+RF6.1.4: Widget con número grande y barra de progreso de doble objetivo: próximo hito (7,30,90 días) y Meta Final (180 Días).
+RF6.1.5: Insights que celebran hitos y recuerdan la meta de 180 días.
+ÉPICA 7: GESTIÓN INTELIGENTE DE OBLIGACIONES Y DEUDAS - V1.5
+Objetivo: Integrar las deudas al panorama y planificar su pago óptimo.
+HU7.1 - Registro de Pasivos: Como Carlos, quiero registrar mis deudas.
+RF7.1.1: Formulario para deuda.
+RF7.1.2: Dashboard con "Total Endeudado".
+HU7.2 - Impacto en el Flujo: Como Carlos, quiero que mis cuotas se consideren en mi "Total Disponible para Gastos".
+RF7.2.1: Integración de cuotas en el cálculo del pool de gastos.
+HU7.3 - Simulador de Pago (V2.0): Como Carlos, quiero simular pagar deudas más rápido.
+RF7.3.1: Simulador "Pago Extra".
+ÉPICA 8: SISTEMA DE TARJETAS DE CRÉDITO - V1.5
+Objetivo: Transformar la tarjeta de crédito en una herramienta controlada.
+HU8.1 - Configuración y Recordatorio: Como Carlos, quiero registrar mis TC.
+RF8.1.1: Formulario para TC.
+RF8.1.2: Widget "Próximos Vencimientos".
+HU8.2 - Pago Total Integrado: Como Carlos, quiero que el pago total de la TC se reserve en mi plan.
+RF8.2.1: "Saldo a Pagar" como categoría obligatoria en el plan de gastos.
+HU8.3 - Simulador de Costo de Cuotas (V2.0): Como Carlos, quiero simular el costo real de financiar una compra.
+RF8.3.1: Simulador de cuotas.
+ÉPICA 9: EDUCACIÓN FINANCIERA ESTRUCTURADA
+Objetivo: Explicar los conceptos clave y enfatizar el costo de la inacción.
+HU9.1 - Glosario Integrado (MVP): Como Carlos, cuando vea "Interés Compuesto" o "Inflación", quiero poder tocar un ícono (?) y leer una explicación simple con ejemplo.
+RF9.1.1: Ícono de ayuda (?) en términos clave.
+RF9.1.2: Explicación en lenguaje simple + ejemplo numérico colombiano.
+HU9.2 - Módulo "El Costo de No Invertir" (V1.5): Como Carlos, quiero un recorrido corto que me muestre, con mis números, el dinero que pierdo por no actuar.
+RF9.2.1: Flujo interactivo de 4 pantallas:
+Tu dinero inactivo hoy,
+Pérdida por inflación,
+Ganancia potencial,
+El Costo de Oportunidad: "Este es el dinero que dejas de ganar cada mes: $X".
+HU9.3 - Insights de Costo de Oportunidad (MVP): Como Carlos, quiero que la app me notifique periódicamente cuánto dinero potencial dejo de ganar por tener saldos inactivos.
+RF9.3.1: Definición de "bajo rendimiento": Saldos en Cuentas (no Fondos) que no tengan reglas de automatización asociadas y cuyo tipo sea "Corriente" o "Ahorros" (sin instrumento de simulación).
+RF9.3.2: Análisis semanal de dichos saldos.
+RF9.3.3: Notificación/Insight: "Esta semana dejaste de ganar ~$Y al tener $Z inactivo. Moverlo a tu 'Fondo Inversión' podría generarte $W/año." (Vinculado a la Regla 4 de HU4.1).
+ÉPICA 10: ANALYTICS Y ADMINISTRACIÓN (BACKOFFICE)
+Objetivo: Proporcionar al equipo de PowerFin datos en tiempo real sobre el comportamiento de los usuarios, el rendimiento del producto y el logro de los OKRs.
+Usuarios de este Panel: Product Manager, Growth Marketer, CEO.
+DECISIÓN DE ALCANCE MVP: En la V1.0 solo se implementa HU10.3 (Instrumentación). Los paneles (HU10.1, 10.2, 10.4, 10.5) se desarrollan en V1.5 y V2.0.
+HU10.1 - Panel de Métricas de Alto Nivel (OKRs) - V1.5: Como Product Manager, quiero ver un dashboard con los KPIs clave (OKRs) actualizados en tiempo real, para monitorear la salud del producto.
+RF10.1.1: Widgets principales que muestren:
+KR1 (Activación): # Usuarios que completaron onboarding / # Usuarios registrados (con breakdown por día/semana).
+KR2 (Educación): # Interacciones con ajuste por inflación o glosario / # Usuarios activos (tendencia).
+KR3 (Comprensión): Resultados de la encuesta en-app sobre "Días de Autonomía" (gráfico de % de respuestas correctas).
+KR4 (Valor - NPS): Puntuación NPS promedio y comentarios recientes.
+RF10.1.2: Capacidad de filtrar datos por período (hoy, última semana, último mes, personalizado).
+RF10.1.3: Exportación de datos a CSV.
+HU10.2 - Funnel de Usuario y Análisis de Comportamiento - V1.5: Como Growth Marketer, quiero ver el embudo de conversión desde el registro hasta la activación completa, para identificar puntos de fuga.
+RF10.2.1: Visualización del embudo de onboarding: Paso 1: Registro → Paso 2: Agregar 1+ cuenta → Paso 3: Crear 1+ fondo → Paso 4: Crear 1+ categoría de gasto.
+RF10.2.2: Mostrar la tasa de conversión entre cada paso y la tasa de abandono.
+RF10.2.3: Poder hacer clic en un paso del embudo para ver una lista de usuarios que se atascaron allí.
+HU10.3 - Métricas de Engagement y Retención (MVP - V1.0): Como Product Manager, quiero que los eventos de usuario se capturen de forma confiable para analizar engagement y retención en herramientas externas (Mixpanel/Amplitude).
+RF10.3.1: El backend debe capturar y enviar de forma asíncrona los siguientes eventos clave:
+onboarding_step_completed (paso 1,2,3,4)
+simulacion_ejecutada (con parámetros: plazo seleccionado, monto, instrumento)
+ajuste_inflacion_activado
+glosario_consultado (con término)
+gasto_registrado (con flag esencial)
+categoria_creada (con flag esencial)
+fondo_creado
+regla_automatica_creada
+RF10.3.2: Los eventos deben ser precisos y estar disponibles en la herramienta de analytics externa en ≤ 5 minutos.
+HU10.4 - Gestión de Contenido Educativo y Insights - V2.0: Como Content Manager, quiero poder editar los textos educativos (glosario, insights) sin necesidad de una actualización de la app.
+RF10.4.1: Panel CMS (Sistema de Gestión de Contenidos) simple para editar:
+Explicaciones del Glosario (para HU9.1).
+Textos de los Insights automáticos (para HU4.1, HU6.1.5, HU9.3).
+Preguntas de la encuesta de comprensión (para KR3).
+Catálogo de Instrumentos: Nombres y tasas de rendimiento simuladas.
+RF10.4.2: Los cambios se reflejan en la app en tiempo real o tras una recarga.
+HU10.5 - Gestión de Usuarios (Soporte) - V2.0: Como Agente de Soporte, quiero buscar un usuario por email o ID y ver su estado para ayudarle.
+RF10.5.1: Búsqueda de usuarios.
+RF10.5.2: Vista de detalle del usuario: datos de perfil, cuentas registradas, fondos, última actividad, dispositivos.
+RF10.5.3 (Avanzado): Capacidad de impersonar (loguearse como) un usuario para depurar problemas (con registro de auditoría y advertencias de seguridad).
+8. REQUERIMIENTOS NO FUNCIONALES
+Para la App de Usuario (Épicas 0 - 9):
+RNF1 (Arquitectura & Moneda): Backend en Node.js/Python. Frontend móvil React Native. Web App React/Next.js. DB PostgreSQL. Sincronización básica de datos de la app del usuario. El MVP operará exclusivamente en Pesos Colombianos (COP).
+RNF2 (Rendimiento): Cálculos financieros (simulador multi-plazo, días de autonomía) < 300ms.
+RNF3 (Seguridad): Encriptación AES-256, TLS 1.3, JWT + refresh tokens.
+RNF4 (UX/Usabilidad): Score SUS > 80. Distinción visual clara en UI entre gastos esenciales y no esenciales (ejemplo: color o ícono). Textos de educación con legibilidad nivel secundaria.
+RNF5 (Cumplimiento Legal - Disclaimers): Todas las proyecciones deben mostrar claramente: "Atención: Los rendimientos mostrados son proyecciones simuladas con tasas de referencia estimadas. No constituyen una promesa de rendimiento real, una recomendación de inversión ni una oferta de producto financiero. Los rendimientos reales pueden variar y están sujetos a riesgo."
+RNF6 (Compatibilidad): iOS 14+, Android 9+. Navegadores webs modernos.
+Para el Sistema de Analytics y Backoffice (Épica 10):
+RNF7 (Seguridad - Admin): Para V1.5/V2.0: Acceso con autenticación robusta y 2FA obligatorio. Roles de usuario (Solo Lectura, Editor, Admin). Registro de auditoría. El requisito de VPN/IP Whitelist es deseable a largo plazo.
+RNF8 (Disponibilidad - Admin): Tiempo de actividad ≥ 99.5%. Los fallos en el backoffice NO deben afectar la app de usuario.
+RNF9 (Privacidad - Datos): Los datos en los paneles de analytics deben mostrar identificadores pseudo-anónimos (User ID) por defecto. El acceso a datos personales (email) debe estar restringido a roles específicos y justificarse para soporte.
+RNF10 (Instrumentación - MVP): Los eventos de analytics deben capturarse de manera confiable y asíncrona, sin bloquear la experiencia del usuario ni afectar el rendimiento de la app. Deben estar disponibles en la herramienta de terceros en ≤ 5 minutos.
+9. FLUJOS DE USUARIO CLAVE (MVP - V1.0)
+Flujo A: Onboarding Educativo y Motivacional (Detallado en HU0.3)
+Registro con Google.
+Agrega cuenta "Nómina Bancolombia" ($500k saldo).
+Paso Asistente: Registra ingreso: Salario, $2.5M.
+Paso Asistente: Lee explicación del Fondo de Emergencia y meta de 180 días. Crea Fondo Emergencia automático: $250,000/mes, en "Liquidez".
+Paso Asistente: Define Gastos Esenciales: Crea categoría "Alimentos" → Checkbox "Esencial" pre-marcado y explicado.
+Pantalla Final: "¡Comienza tu viaje! Tienes 0 DÍAS de Autonomía. Tu meta es 180 Días." Muestra widget con barra de progreso.
+Flujo B: Registro de Gasto con Clasificación Esencial
+Desde dashboard, toca "+" flotante.
+Tipo: Gasto. Monto: $80,000. Selecciona Categoría: "Alimentos" (ya marcada como Esencial en el sistema). Cuenta: "Efectivo".
+La app registra el gasto. Este gasto se contabiliza para el cálculo de "Gasto Diario Promedio Esencial".
+Si fuera un gasto en "Suscripciones" (no esencial), se registra igual pero NO afecta el cálculo de Días de Autonomía.
+Flujo C: Simulación Multi-plazo y Educación
+En dashboard, va a "Tu Proyección de Riqueza".
+Ajusta ahorro mensual a $100,000. Selecciona "CDT (8%)".
+Toca "1 MES": Ve "Interés generado: ~$667". Insight: "Es como un combo de hamburguesa extra este mes."
+Toca "20 AÑOS": Ve "Total: $58.9M. Intereses: $34.9M". Insight: "Este es el poder del interés compuesto. Cada mes que no empiezas, dejas de ganar ~$X,XXX futuros."
+Activa "Mostrar Poder de Compra de Hoy (Inflación 4%)". Ve el número reducirse. Insight: "Por eso es clave buscar rendimientos que superen la inflación."
+10. MÉTRICAS DE ÉXITO Y CRITERIOS DE ACEPTACIÓN
+10.1 Métricas Clave (V1.0):
+Activación Completa: % con 1+ cuenta, 1+ fondo, 1+ categoría de gasto > 75% (Medido por eventos onboarding_step_completed).
+Uso de Clasificación Esencial: % de usuarios que marca al menos 2 categorías como "Esenciales" > 60% (Medido por evento categoria_creada con flag esencial).
+Interacción Educativa: % que consulta glosario o ajuste por inflación > 50% (Medido por eventos glosario_consultado, ajuste_inflacion_activado).
+Retención Día 30: > 35% (Medido por cohortes en herramienta de analytics).
+10.2 Criterios de Aceptación (Ejemplo: Instrumentación HU10.3):
+Dado que un usuario completa una simulación,
+Cuando el evento simulacion_ejecutada se envía al backend,
+Entonces el sistema de analytics (ej: Mixpanel) debe recibir el evento en ≤ 2 segundos,
+Y los datos del evento (plazo, monto, instrumento) deben ser precisos y estar disponibles para consulta en el dashboard de analytics externo en ≤ 5 minutos.
+11. ROADMAP ESTRATÉGICO
+Trimestre
+Foco
+Hitos Clave
+Q2 2024
+Construcción MVP
+Desarrollo V1.0 (App Usuario + Instrumentación de Eventos HU10.3). Configuración de dashboards en Mixpanel/Amplitude.
+Q3 2024
+Lanzamiento y Validación
+Lanzamiento público V1.0. Monitoreo intensivo de OKRs via dashboards externos. Inicio desarrollo Panel Admin Propio (V1.5).
+Q4 2024
+Control Total & Datos
+Lanzamiento V1.5 (Funcionalidades + Panel Admin Básico HU10.1, HU10.2). Transición del monitoreo a panel propio.
+Q1 2025
+Optimización & Admin total
+Desarrollo y lanzamiento V2.0 (Simuladores avanzados + CMS y Gestión de Usuarios HU10.4, HU10.5).
+Año 2
+Conexión & Comunidad
+Planificación e inicio de V3.0 (APIs bancarias, características sociales).
+12. APROBACIONES
+Rol
+Nombre
+Firma
+Fecha
+Product Owner
+[John Rodriguez]
+Líder de Desarrollo
+Líder de Diseño UX/UI

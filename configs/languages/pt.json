@@ -1,0 +1,54 @@
+{
+    "app": {
+        "title": "PowerFin",
+        "welcome": "Bem-vindo ao PowerFin",
+        "tagline": "Assuma o controle total das suas finanças. Junte-se a uma nova era de gestão inteligente, onde cada centavo tem um propósito e sua liberdade financeira é nossa prioridade. Vamos começar a jornada?"
+    },
+    "common": {
+        "buttons": {
+            "start": "Começar",
+            "back": "Voltar",
+            "next": "Próximo",
+            "save": "Salvar",
+            "cancel": "Cancelar",
+            "login": "Entrar"
+        },
+        "account_types": {
+            "CASH": "Dinheiro",
+            "SAVINGS": "Conta Poupança",
+            "CHECKING": "Conta Corrente",
+            "CREDIT": "Cartão de Crédito",
+            "INVESTMENT": "Investimento"
+        },
+        "essentiality": {
+            "ESSENTIAL": "Essencial",
+            "NON_ESSENTIAL": "Não Essencial"
+        }
+    },
+    "auth": {
+        "login": {
+            "title": "Entrar",
+            "subtitle": "Acesse sua liberdade financeira",
+            "email_label": "Endereço de E-mail",
+            "email_hint": "exemplo@email.com",
+            "password_label": "Senha",
+            "password_hint": "Digite sua senha",
+            "submit": "Entrar",
+            "forgot_password": "Esqueceu sua senha?",
+            "no_account": "Não tem uma conta? Junte-se agora"
+        }
+    },
+    "construction": {
+        "title": "Em Construção",
+        "message": "Estamos trabalhando arduamente para traer esta funcionalidade em breve.",
+        "back": "Voltar"
+    },
+    "home": {
+        "title": "Início",
+        "content": "Página Inicial"
+    },
+    "errors": {
+        "not_found": "Página não encontrada",
+        "generic": "Ocorreu um error inesperado"
+    }
+}
