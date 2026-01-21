@@ -330,3 +330,7 @@
 2026-01-21 09:00:58,415 - flet_web.fastapi - INFO - Start session: aOQ3sSgPakyTbIc2
 2026-01-21 09:00:58,428 - root - INFO - Starting PowerFin...
 2026-01-21 09:00:58,434 - root - INFO - Navigating to / -> views.pages.login_view.LoginView
+2026-01-21 09:02:54,662 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-21 09:02:55,055 - root - INFO - Initializing Supabase connection...
+2026-01-21 09:02:55,056 - root - WARNING - Supabase URL or Key missing. Database connection not established.
+2026-01-21 09:04:34,690 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
