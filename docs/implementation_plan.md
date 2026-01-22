@@ -28,7 +28,7 @@
 - [x] Link between Login and Register views.
 - [x] Full I18n support (ES, EN, PT) for all messages and validation.
 
-## Phase 5: Initial Profile & Currency Management 🚧
+## Phase 5: Initial Profile & Currency Management ✅
 - [x] Create Master Currencies Table (Columns: ISO Code, Name, Region/Country).
 - [x] Populate Master Table with initial data (COP, USD, EUR).
 - [x] Link Profiles table with authentication data (reuse Name from registration).
@@ -53,8 +53,9 @@
 - [ ] Profile completion progress indicator.
 
 ## Phase 8: Advanced User Profile & Personalization ⏳
-- [ ] Editing fields: Name, Gender, Birth Date, Civil Status, Sport, Favorite Color.
-- [ ] Avatar/Profile picture support.
+- [ ] Extended Personal Data: Name, Gender, Birth Date, Civil Status, Education Level.
+- [ ] Financial Profiling: Risk Profile (Conservative/Moderate/Aggressive) & Work Sector.
+- [ ] Avatar field implementation (Optional image upload & storage).
 - [ ] User preferences persistence.
 
 ## Phase 9: Advanced Language Settings ⏳
