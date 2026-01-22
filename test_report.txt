@@ -1,0 +1,22 @@
+Running tests...
+test_i18n_login_keys (test_phase_3_login.TestPhase3Login.test_i18n_login_keys)
+Verify that mandatory keys for the new Login UI exist in Spanish. ... ok
+test_login_view_structure (test_phase_3_login.TestPhase3Login.test_login_view_structure)
+Verify the LoginView structure can be rendered without errors. ... ok
+test_routing_phase_3 (test_phase_3_login.TestPhase3Login.test_routing_phase_3)
+Verify that the root route and /login point to LoginView path. ... ok
+test_i18n_register_keys (test_phase_4_register.TestPhase4Register.test_i18n_register_keys)
+Verify that mandatory keys for the Register UI exist. ... ok
+test_register_view_render (test_phase_4_register.TestPhase4Register.test_register_view_render)
+Verify RegisterView can be instantiated and rendered. ... ok
+test_routing_phase_4 (test_phase_4_register.TestPhase4Register.test_routing_phase_4)
+Verify that the /register route exists and points to the right path. ... ok
+test_sanitize_redirect_url (test_phase_5_smart_resend.TestPhase5SmartResend.test_sanitize_redirect_url)
+Test the URL sanitization logic specific to Phase 5 requirement. ... ok
+test_smart_resend_trigger (test_phase_5_smart_resend.TestPhase5SmartResend.test_smart_resend_trigger)
+Test that receiving 'Email not confirmed' during login triggers the Smart Resend logic. ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.697s
+
+OK

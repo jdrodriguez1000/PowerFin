@@ -1,7 +1,7 @@
 # Product Requirements Document (PRD) - PowerFin
-**Versión:** 1.6  
-**Estado:** Documento Maestro Integrado  
-**Fecha:** 20 de enero de 2026
+**Versión:** 1.7
+**Estado:** Documento Maestro Integrado
+**Fecha:** 21 de enero de 2026
 
 ## 1. Introducción y Visión
 **PowerFin** es un sistema operativo para las finanzas personales. Más que una aplicación de presupuestos, actúa como un **simulador de patrimonio**, un **automatizador de decisiones** y un **educador financiero** integrado.
@@ -27,10 +27,11 @@ La aplicación debe ser global y accesible para diferentes mercados:
 *   **Idiomas Soportados:** Español (ES), Inglés (EN) y Portugués (PT).
 *   **Idioma por Defecto:** Español.
 *   **Alcance:** La interfaz completa, mensajes de error, notificaciones, glosario educativo e insights deben estar disponibles en los tres idiomas.
-*   **Persistencia:** El idioma preferido del usuario debe guardarse en su perfil para mantener la consistencia entre sesiones y dispositivos.
+*   **Persistencia (Control de Cambios v1.7):** El idioma preferido se guarda inmediatamente en el perfil de Supabase durante el onboarding. Si un usuario cambia de dispositivo, la aplicación carga su idioma preferido automáticamente tras el login.
 
 ### 3.2. Onboarding Educativo (Punto de Partida)
 Asistente lineal obligatorio para nuevos usuarios:
+*   **Paso 0 (Control de Cambios v1.7):** Validación de Perfil. El sistema detecta logins con datos incompletos (Moneda/Idioma) y fuerza una redirección al flujo de Onboarding, impidiendo el acceso al Dashboard hasta completar los datos maestros.
 *   **Paso 1:** Registro y configuración de Ingreso Principal.
 *   **Paso 2:** Creación del primer **Fondo de Emergencia** (Sugerencia 10% del ingreso).
 *   **Paso 3:** Definición de **Gastos Esenciales** base (Arriendo, Alimentos).
@@ -38,6 +39,7 @@ Asistente lineal obligatorio para nuevos usuarios:
 
 ### 3.3. Gestión Multimoneda y Cuentas
 *   **Multimoneda Independiente:** USD, EUR, COP. Balances aislados para evitar distorsión por tasas de cambio.
+*   **Visualización (Control de Cambios v1.7):** Las monedas se presentan en formato estandarizado **"Código - Nombre País"** (ej: *COP - Peso Colombia*, *USD - Dólar Estados Unidos*) para claridad absoluta.
 *   **Gestión de Efectivo:** Manejado como una "cuenta" más para trazabilidad total de retiros y depósitos.
 *   **Traslados entre Cuentas:** Movimientos internos que no afectan el presupuesto de gastos/ingresos.
 
@@ -59,6 +61,15 @@ Asistente lineal obligatorio para nuevos usuarios:
 *   **Gestión de Fondos:** Emergencias, Viajes, Educación.
 *   **Métodos de Aporte:** Manual (Libre), Automático (Valor Fijo) o Porcentual (% de ingresos).
 *   **Indicador de Autonomía:** `Días de Autonomía = Total Fondos / Gasto Diario Esencial`.
+
+### 3.7. Autenticación y Experiencia de Usuario (Control de Cambios v1.7)
+*   **Flujo "Zero Friction" en Verificación:** Si un usuario intenta ingresar sin confirmar su email, el sistema:
+    1.  Detecta el error específico.
+    2.  Muestra una vista de feedback amigable (sin crash ni error genérico).
+    3.  Dispara automáticamente el reenvío del correo de verificación.
+*   **Sanitización de Redirección:** El enlace de verificación enviado por correo se sanitiza para garantizar que el usuario regrese a la raíz de la aplicación web (`/`), evitando errores de enrutamiento por fragmentos o parámetros residuales.
+*   **Diseño Split-Screen:** Vistas de Login y Registro unificadas bajo un diseño de pantalla dividida (Hero Image a la izquierda, Formulario a la derecha) para una percepción "Premium" desde el primer contacto.
+*   **Arquitectura Modular del Dashboard:** La vista principal se compone de elementos reutilizables (`Sidebar`, `SummaryCard`, `QuickAction`) para facilitar el mantenimiento y la escalabilidad futura.
 
 ---
 
@@ -83,3 +94,13 @@ Asistente lineal obligatorio para nuevos usuarios:
 2.  **Fase 2 (Control Total):** Traslados entre cuentas, Simulador de Patrimonio con Inflación e Instrumentos. Inclusión de Portugués (PT).
 3.  **Fase 3 (Automatización):** Aportes automáticos a fondos, Transacciones Recurrentes y Alertas al 90%.
 4.  **Fase 4 (Admin & Educación):** CMS educativo multi-idioma, Panel de OKRs avanzado y Gestión de Soporte.
+
+---
+
+## 7. Control de Cambios e Historial de Versiones
+
+| Versión | Fecha | Autor | Descripción del Cambio |
+| :--- | :--- | :--- | :--- |
+| **1.0** | 15-ene-2026 | Equipo Producto | Creación del documento original. |
+| **1.6** | 20-ene-2026 | Antigravity AI | Ajustes menores y clarificación de roles. |
+| **1.7** | 21-ene-2026 | Antigravity AI | Inclusión de **Smart Resend Logic** (Auth), Lógica de **Persistencia de Idioma**, Estandarización de formato de **Monedas**, y Arquitectura **Modular** del Dashboard. Se añade sección 3.7 específica para mejoras de UX en autenticación. |

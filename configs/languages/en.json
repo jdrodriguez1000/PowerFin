@@ -39,7 +39,18 @@
             "register": "Register",
             "remember_me": "Remember Me",
             "hero_title": "Control your financial future",
-            "hero_subtitle": "Manage your income and expenses intelligently in one place."
+            "hero_subtitle": "Manage your income and expenses intelligently in one place.",
+            "errors": {
+                "invalid": "Invalid credentials. Please check your email and password.",
+                "email_not_confirmed": "Please confirm your email address to log in."
+            },
+            "verification_required": {
+                "title": "Verification Required",
+                "message": "Your email {email} is not verified yet.",
+                "action": "Resending email...",
+                "success": "We've sent you a new activation link. Check your inbox (and spam)!",
+                "back_button": "Back to Login"
+            }
         },
         "register": {
             "title": "Create your account",
@@ -70,6 +81,17 @@
             }
         }
     },
+    "onboarding": {
+        "title": "Welcome to PowerFin, {name}! 💎",
+        "subtitle": "You're one step away from starting your financial transformation. Help us by setting your local currency and language so that every insight is accurate and tailored specifically for you.",
+        "language_label": "Preferred Language",
+        "currency_label": "Reference Currency",
+        "currency_hint": "Select your local currency",
+        "submit": "Finish Setup",
+        "progress": "Step 1 of 1",
+        "hero_title": "Your financial freedom starts here",
+        "hero_subtitle": "The definitive tool for intelligent money management."
+    },
     "profile": {
         "title": "My Profile",
         "subtitle": "Complete your personal information",
@@ -97,6 +119,26 @@
         "title": "Home",
         "content": "Landing Page"
     },
+    "dashboard": {
+        "title": "Dashboard",
+        "welcome": "Hello, {name}!",
+        "balance": "Total Balance",
+        "autonomy": "Autonomy Days",
+        "autonomy_subtitle": "Based on average spending",
+        "quick_actions": "Quick Actions",
+        "add_income": "New Income",
+        "add_expense": "New Expense",
+        "recent_activity": "Recent Activity",
+        "menu": {
+            "dashboard": "Summary",
+            "accounts": "Accounts",
+            "transactions": "Transactions",
+            "goals": "Goals",
+            "profile": "My Profile",
+            "settings": "Settings",
+            "logout": "Log Out"
+        }
+    },
     "errors": {
         "not_found": "Page not found",
         "generic": "An unexpected error occurred"
@@ -105,6 +147,7 @@
         "name_invalid": "Enter your full name (min. 3 characters)",
         "email_invalid": "Enter a valid email address",
         "password_short": "Password must be at least 8 characters",
-        "passwords_mismatch": "Passwords do not match"
+        "passwords_mismatch": "Passwords do not match",
+        "selection_required": "Please make a selection"
     }
 }

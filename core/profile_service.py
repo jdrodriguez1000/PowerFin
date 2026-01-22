@@ -23,6 +23,7 @@ class ProfileService:
             data = profile.to_dict()
             # Remove ID from update data as it's the key
             user_id = data.pop("id")
+            Logger.info(f"Updating Supabase Profile {user_id} with data: {data}")
             res = self.db.table("profiles").update(data).eq("id", user_id).execute()
             return {"success": True, "data": res.data}
         except Exception as e:

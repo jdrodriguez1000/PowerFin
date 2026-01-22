@@ -115,7 +115,9 @@ class RegisterView:
         url = self.page.url
         if not url: return None
         url = url.replace("ws://", "http://").replace("wss://", "https://")
-        return url.split("#")[0].split("?")[0]
+        sanitized = url.split("#")[0].split("?")[0]
+        Logger.info(f"Sanitized redirect URL for Supabase: {sanitized}")
+        return sanitized
 
     def _map_auth_error(self, error_str):
         """Maps Supabase errors to localized strings."""

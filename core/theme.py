@@ -12,6 +12,12 @@ class UserTheme:
     TEXT_PRIMARY = "#000000"    # Títulos
     TEXT_SECONDARY = "#4A4A4A"  # Cuerpo
     TEXT_MUTED = "#8E8E8E"      # Labels/Secundario
+    TEXT_DISABLED = "#B0BEC5"   # Texto deshabilitado/inactivo
+    
+    # UI Elements
+    DIVIDER = "#F5F5F5"         # Divisores (Grey 100 equiv)
+    LINK = "#0D47A1"            # Azul Link
+    ERROR = "#EF5350"           # Rojo Error
     
     # Radios y Bordes
     RADIUS_XL = 30              # Botones tipo píldora / Widgets principales

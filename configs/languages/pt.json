@@ -39,7 +39,18 @@
             "register": "Cadastre-se",
             "remember_me": "Lembrar de mim",
             "hero_title": "Controle seu futuro financeiro",
-            "hero_subtitle": "Gerencie suas receitas e despesas de forma inteligente em um só lugar."
+            "hero_subtitle": "Gerencie suas receitas e despesas de forma inteligente em um só lugar.",
+            "errors": {
+                "invalid": "Credenciais inválidas. Por favor, verifique seu e-mail e senha.",
+                "email_not_confirmed": "Por favor, confirme seu e-mail para fazer login."
+            },
+            "verification_required": {
+                "title": "Verificação Necessária",
+                "message": "Seu e-mail {email} ainda não foi confirmado.",
+                "action": "Reenviando e-mail...",
+                "success": "Enviamos um novo link de ativação. Verifique sua caixa de entrada (e spam)!",
+                "back_button": "Voltar ao Login"
+            }
         },
         "register": {
             "title": "Crie sua conta",
@@ -70,14 +81,63 @@
             }
         }
     },
+    "onboarding": {
+        "title": "Bem-vindo ao PowerFin, {name}! 💎",
+        "subtitle": "Você está a um passo de começar sua transformación financeira. Ajude-nos configurando sua moeda e idioma local para que cada análise seja precisa e feita sob medida para você.",
+        "language_label": "Idioma de Preferência",
+        "currency_label": "Moeda de Referência",
+        "currency_hint": "Selecione sua moeda local",
+        "submit": "Finalizar Configuração",
+        "progress": "Passo 1 de 1",
+        "hero_title": "Sua libertad financeira começa aqui",
+        "hero_subtitle": "A ferramenta definitiva para a gestão inteligente do seu dinheiro."
+    },
+    "profile": {
+        "title": "Mi Perfil",
+        "subtitle": "Completa tu información personal",
+        "save_success": "Perfil actualizado con éxito",
+        "fields": {
+            "name": "Nombre Completo",
+            "birth_date": "Fecha de Nacimiento",
+            "gender": "Género",
+            "civil_status": "Estado Civil",
+            "favorite_color": "Color Favorito",
+            "favorite_sport": "Deporte Favorito"
+        },
+        "genders": {
+            "male": "Masculino",
+            "female": "Femenino",
+            "other": "Otro"
+        }
+    },
     "construction": {
-        "title": "Em Construção",
-        "message": "Estamos trabalhando arduamente para traer esta funcionalidade em breve.",
-        "back": "Voltar"
+        "title": "Em Construcción",
+        "message": "Estamos trabajando arduamente para traer esta funcionalidad em breve.",
+        "back": "Volver"
     },
     "home": {
         "title": "Início",
         "content": "Página Inicial"
+    },
+    "dashboard": {
+        "title": "Painel de Controle",
+        "welcome": "Olá, {name}!",
+        "balance": "Saldo Total",
+        "autonomy": "Dias de Autonomia",
+        "autonomy_subtitle": "Baseado em seus gastos médios",
+        "quick_actions": "Ações Rápidas",
+        "add_income": "Nova Receita",
+        "add_expense": "Nova Despesa",
+        "recent_activity": "Atividade Recente",
+        "menu": {
+            "dashboard": "Resumo",
+            "accounts": "Contas",
+            "transactions": "Transações",
+            "goals": "Objetivos",
+            "profile": "Meu Perfil",
+            "settings": "Configurações",
+            "logout": "Sair"
+        }
     },
     "errors": {
         "not_found": "Página não encontrada",
@@ -86,7 +146,8 @@
     "validation": {
         "name_invalid": "Insira seu nome completo (mín. 3 caracteres)",
         "email_invalid": "Insira um endereço de e-mail válido",
-        "password_short": "A senha deve ter pelo menos 8 caracteres",
-        "passwords_mismatch": "As senhas não coincidem"
+        "password_short": "A senha debe ter pelo menos 8 caracteres",
+        "passwords_mismatch": "As senhas não coincidem",
+        "selection_required": "Por favor faça uma seleção"
     }
 }

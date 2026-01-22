@@ -39,7 +39,18 @@
             "register": "Regístrate",
             "remember_me": "Recuérdame",
             "hero_title": "Controla tu futuro financiero",
-            "hero_subtitle": "Gestiona tus ingresos y gastos de forma inteligente en un solo lugar."
+            "hero_subtitle": "Gestiona tus ingresos y gastos de forma inteligente en un solo lugar.",
+            "errors": {
+                "invalid": "Credenciales inválidas. Por favor, verifica tu correo y contraseña.",
+                "email_not_confirmed": "Por favor, confirma tu correo electrónico para iniciar sesión."
+            },
+            "verification_required": {
+                "title": "Verificación Requerida",
+                "message": "Tu correo {email} aún no ha sido confirmado.",
+                "action": "Reenviando correo...",
+                "success": "Te hemos enviado un nuevo enlace de activación. ¡Revisa tu bandeja de entrada (y spam)!",
+                "back_button": "Volver al Inicio"
+            }
         },
         "register": {
             "title": "Crea tu cuenta",
@@ -51,7 +62,7 @@
             "password_label": "Tu Contraseña",
             "password_hint": "Mínimo 8 caracteres",
             "confirm_password_label": "Confirma tu Contraseña",
-            "confirm_password_hint": "Repita tu contraseña",
+            "confirm_password_hint": "Repite tu contraseña",
             "submit": "Crear Cuenta",
             "already_have_account": "¿Ya tienes cuenta?",
             "login": "Inicia Sesión",
@@ -69,6 +80,17 @@
                 "unexpected": "Ocurrió un error inesperado. Inténtalo de nuevo."
             }
         }
+    },
+    "onboarding": {
+        "title": "¡Bienvenido a PowerFin, {name}! 💎",
+        "subtitle": "Estás a un paso de comenzar tu transformación financiera. Ayúdanos configurando tu moneda local e idioma para que cada análisis sea preciso y diseñado especialmente para ti.",
+        "language_label": "Idioma de Preferencia",
+        "currency_label": "Moneda de Referencia",
+        "currency_hint": "Selecciona tu moneda local",
+        "submit": "Finalizar Configuración",
+        "progress": "Paso 1 de 1",
+        "hero_title": "Tu libertad financiera empieza aquí",
+        "hero_subtitle": "La herramienta definitiva para la gestión inteligente de tu dinero."
     },
     "profile": {
         "title": "Mi Perfil",
@@ -97,6 +119,26 @@
         "title": "Inicio",
         "content": "Página Principal"
     },
+    "dashboard": {
+        "title": "Panel de Control",
+        "welcome": "¡Hola, {name}!",
+        "balance": "Saldo Total",
+        "autonomy": "Días de Autonomía",
+        "autonomy_subtitle": "Basado en tus gastos promedio",
+        "quick_actions": "Acciones Rápidas",
+        "add_income": "Nuevo Ingreso",
+        "add_expense": "Nuevo Gasto",
+        "recent_activity": "Actividad Reciente",
+        "menu": {
+            "dashboard": "Resumen",
+            "accounts": "Cuentas",
+            "transactions": "Transacciones",
+            "goals": "Objetivos",
+            "profile": "Mi Perfil",
+            "settings": "Ajustes",
+            "logout": "Cerrar Sesión"
+        }
+    },
     "errors": {
         "not_found": "Página no encontrada",
         "generic": "Ocurrió un error inesperado"
@@ -108,6 +150,7 @@
         "name_invalid": "Ingresa tu nombre completo (mín. 3 caracteres)",
         "email_invalid": "Ingresa un correo electrónico válido",
         "password_short": "La contraseña debe tener al menos 8 caracteres",
-        "passwords_mismatch": "Las contraseñas no coinciden"
+        "passwords_mismatch": "Las contraseñas no coinciden",
+        "selection_required": "Por favor realiza una selección"
     }
 }

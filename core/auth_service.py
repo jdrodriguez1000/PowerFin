@@ -69,3 +69,24 @@ class AuthService:
         Returns the current authenticated user if exists.
         """
         return self.db.auth.get_user()
+
+    def resend_verification_email(self, email, redirect_to=None):
+        """
+        Resends the signup confirmation email to the user.
+        """
+        try:
+            Logger.info(f"Resending verification email to: {email}")
+            options = {
+                "type": "signup",
+                "email": email
+            }
+            if redirect_to:
+                options["options"] = {"email_redirect_to": redirect_to}
+                
+            self.db.auth.resend(options)
+            Logger.info(f"Verification email resent to: {email}")
+            return {"success": True}
+        except Exception as e:
+            error_msg = str(e)
+            Logger.error(f"Resend verification error: {error_msg}")
+            return {"success": False, "error": error_msg}

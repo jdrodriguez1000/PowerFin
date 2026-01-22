@@ -28,15 +28,24 @@
 - [x] Link between Login and Register views.
 - [x] Full I18n support (ES, EN, PT) for all messages and validation.
 
-## Phase 5: Initial Profile Management ⏳
-- [ ] Base user profile model.
-- [ ] Form for basic data collection.
-- [ ] Integration with Supabase auth flow.
+## Phase 5: Initial Profile & Currency Management 🚧
+- [x] Create Master Currencies Table (Columns: ISO Code, Name, Region/Country).
+- [x] Populate Master Table with initial data (COP, USD, EUR).
+- [x] Link Profiles table with authentication data (reuse Name from registration).
+- [x] Refine Profile Schema: Keep only essential fields (**Full Name, Currency, Language**).
+- [x] Implement Onboarding Logic: Force setup only if currency/language are missing.
+- [x] Premium Onboarding View: Integrated Auth Split-Screen with personalization.
+- [x] Persistence: Save preferred language to the database during onboarding.
+- [x] Display Currency in format: "Code - Name Country" (e.g., "COP - Peso Colombia").
+- [x] Logic to identify and redirect new users with incomplete mandatory data.
+- [x] Implement Smart Re-send Logic: Auto-resend verification email on unverified login and show feedback view (Zero Friction).
 
 ## Phase 6: Core Dashboard View ⏳
-- [ ] Sidebar/Navigation Drawer implementation.
-- [ ] Main dashboard summary cards (Total balance, Autonomy days).
-- [ ] Responsive grid layout for quick actions.
+- [x] Sidebar/Navigation Drawer implementation (Component: Sidebar).
+- [x] Main dashboard summary cards (Component: SummaryCard).
+- [x] Responsive grid layout for quick actions (Component: QuickAction).
+- [ ] Connect Real Data to Summary Cards.
+- [x] Implement logout functionality (Already in Sidebar and Dashboard).
 
 ## Phase 7: Mandatory Profile Completion ⏳
 - [ ] Logic to check for incomplete profiles on every login.

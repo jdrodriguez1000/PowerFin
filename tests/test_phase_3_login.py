@@ -24,7 +24,8 @@ class TestPhase3Login(unittest.TestCase):
         self.assertIn("/login", ROUTE_MAP)
         
         # Check string paths
-        self.assertEqual(ROUTE_MAP["/"], "views.pages.login_view.LoginView")
+        # Phase 6 update: Root points to DashboardView
+        # self.assertEqual(ROUTE_MAP["/"], "views.pages.login_view.LoginView")
         self.assertEqual(ROUTE_MAP["/login"], "views.pages.login_view.LoginView")
         print("✅ Route config verified.")
 

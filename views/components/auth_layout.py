@@ -57,7 +57,7 @@ class AuthLayout:
         form_panel = ft.Container(
             expand=True,
             bgcolor=ft.Colors.WHITE,
-            alignment=ft.Alignment.CENTER,
+            alignment=ft.alignment.Alignment(0, 0),
             content=ft.Container(
                 width=420,
                 content=form_content
