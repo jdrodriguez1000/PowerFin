@@ -1,49 +1,49 @@
 # Guía de Estilos de FinancApp
 
-Esta guía define el sistema de diseño, los patrones visuales y los componentes de UI para las aplicaciones de **Usuario** y **Administrador** de FinancApp, basándose en los conceptos visuales proporcionados.
+Esta guía define el sistema de diseño, los patrones visuales y los componentes de UI para las aplicaciones de **Usuario** y **Administrador** de FinancApp, evolucionando hacia una estética modernista, limpia y premium basada en el concepto "Fundify".
 
 ---
 
 ## 🟢 1. Aplicación de Usuario (FinancApp User)
-*Basado en `baseUser.webp`*
+*Basado en la estética Premium Dashboard v2 (Referencia: FUNDIFY)*
 
-### 🎨 Sistema de Colores
-- **Primario:** `#B6E33E` (Verde Lima)
-- **Dark Neutral:** `#002A1C` (Verde Bosquesidebar)
-- **Background:** `#F4F7F6` (Gris Neutro muy claro)
-- **Card Background:** `#FFFFFF` (Blanco Puro)
+### 🎨 Sistema de Colores (Paleta Fundify)
+- **Primary Canvas (Background):** `#D0E7F5` (Azul Cielo Pastel - Fondo de la aplicación)
+- **Panel/Sidebar Background:** `#F7FBFD` (Casi blanco, con un toque azulado)
+- **Active Accent:** `#B6F09C` (Menta brillante para estados activos y éxitos)
+- **Primary Dark:** `#0F172A` (Azul Marino Profundo para tarjetas especiales y texto principal)
+- **Surface (Cards):** `#FFFFFF` (Blanco Puro)
+- **Expense/Negative:** `#FF8282` (Coral/Rojo suave para salidas)
+- **Muted Text:** `#64748B` (Gris Slate para etiquetas y fechas)
 
 ### 🧱 Componentes de UI Detallados
 
-#### A. Botones (Buttons)
-- **Botón Primario (`ElevatedButton`):**
-  - **Fondo:** `#B6E33E`
-  - **Color de Texto:** `#002A1C` (Oscuro)
-  - **Borde:** `border_radius=30` (Píldora/Cápsula completa)
-  - **Sombra:** Suave, `elevation=2`
-- **Botón Secundario / Outline:**
-  - **Border:** `1px solid #B6E33E`
-  - **Color de Texto:** `#B6E33E`
-  - **Borde:** `border_radius=30`
-- **Botón de Icono (Sidebar):**
-  - **Activo:** Ícono blanco, fondo sutil si es necesario.
-  - **Inactivo:** Ícono gris claro/opaco.
+#### A. Navegación (Sidebar)
+- **Estilo:** Fondo `#F7FBFD`, borde derecho muy sutil.
+- **Item Activo:** 
+  - Fondo: `#B6F09C` con `border_radius=12`.
+  - Icono/Texto: Color `#0D2B1E` (verde oscuro).
+- **Item Inactivo:**
+  - Color: `#64748B`.
+- **Get Pro Card:** Un contenedor inferior con fondo `#0F172A`, texto blanco y botón de acción en color `#B6F09C`.
 
-#### B. Cajas de Texto (TextFields/Inputs)
-- **Estilo General:**
-  - **Fondo:** `#FFFFFF`
-  - **Borde:** `border_color="#E0E0E0"` (Gris muy claro)
-  - **Focus:** `focus_color="#B6E33E"`
-  - **Border Radius:** `border_radius=15`
-  - **Content Padding:** Amplio para una sensación "aireada".
+#### B. Tarjetas de Resumen (KPI Cards)
+- **Diseño:** Fondo blanco, esquinas redondeadas (`border_radius=20`), sombra muy suave.
+- **Elementos Internos:**
+  - Icono superior izquierdo.
+  - Indicador de tendencia (pequeña cápsula verde/roja con el %).
+  - Valor principal en fuente pesada (`weight="bold"`).
+  - Título descriptivo debajo en `#64748B`.
 
-#### C. Tarjetas (Cards / Containers)
-- **Dashboard Cards:**
-  - **Fondo:** `#FFFFFF`
-  - **Border Radius:** `border_radius=25`
-  - **Sombra:** `box-shadow: 0px 4px 15px rgba(0, 42, 28, 0.05)`
-- **Special Card (Ahorro/Cards):**
-  - Fondo oscuro `#002A1C` con texturas de gradiente o patrones circulares sutiles en verde.
+#### C. Tarjeta de Cuenta Principal (Credit Card Style)
+- **Fondo:** `#0F172A` (Azul Marino).
+- **Decoración:** Patrones circulares sutiles.
+- **Contenido:** Nombre, balance en blanco, detalles de tarjeta.
+
+#### D. Visualización de Datos (Charts & Progress)
+- **Gráficos de Barras:** Barras duales en `#0F172A` y `#B6F09C`.
+- **Barras de Progreso:** Fondo `#F1F5F9` con progreso en `#B6F09C`.
+- **Gráfico de Dona:** Centro con valor total, segmentos en colores coordinados.
 
 ---
 

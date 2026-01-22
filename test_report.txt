@@ -17,6 +17,6 @@ test_smart_resend_trigger (test_phase_5_smart_resend.TestPhase5SmartResend.test_
 Test that receiving 'Email not confirmed' during login triggers the Smart Resend logic. ... ok
 
 ----------------------------------------------------------------------
-Ran 8 tests in 0.697s
+Ran 8 tests in 0.020s
 
 OK

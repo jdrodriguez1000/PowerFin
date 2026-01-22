@@ -124,19 +124,28 @@
         "welcome": "Olá, {name}!",
         "balance": "Saldo Total",
         "autonomy": "Dias de Autonomia",
-        "autonomy_subtitle": "Baseado em seus gastos médios",
+        "autonomy_subtitle": "Cobre despesas essenciais",
+        "savings": "Total Poupado",
+        "passive_index": "Índice Passivo",
+        "passive_index_subtitle": "Cobertura com renda passiva",
         "quick_actions": "Ações Rápidas",
         "add_income": "Nova Receita",
         "add_expense": "Nova Despesa",
         "recent_activity": "Atividade Recente",
         "menu": {
             "dashboard": "Resumo",
+            "budget": "Orçamento",
             "accounts": "Contas",
             "transactions": "Transações",
             "goals": "Objetivos",
             "profile": "Meu Perfil",
             "settings": "Configurações",
             "logout": "Sair"
+        },
+        "health": {
+            "title": "Saúde Patrimonial",
+            "iec": "Índice de Eficiência de Capital (IEC)",
+            "opportunity_cost": "Custo de Oportunidade"
         }
     },
     "errors": {

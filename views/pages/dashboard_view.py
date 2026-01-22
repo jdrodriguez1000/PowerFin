@@ -25,6 +25,8 @@ class DashboardView:
         # UI controls
         self.balance_text = ft.Text("$ 0.00", size=32, weight=ft.FontWeight.BOLD, color=ft.Colors.WHITE)
         self.autonomy_text = ft.Text("0", size=32, weight=ft.FontWeight.BOLD, color=ft.Colors.WHITE)
+        self.savings_text = ft.Text("$ 0.00", size=32, weight=ft.FontWeight.BOLD, color=ft.Colors.WHITE)
+        self.passive_index_text = ft.Text("0 %", size=32, weight=ft.FontWeight.BOLD, color=ft.Colors.WHITE)
 
     def handle_logout(self, _):
         self.auth_service.sign_out()
@@ -43,6 +45,8 @@ class DashboardView:
                 # Placeholder for balance; in next phases we'll fetch actual accounts
                 currency = self.profile.currency_code if self.profile.currency_code else "$"
                 self.balance_text.value = f"{currency} 0.00"
+                self.savings_text.value = f"{currency} 0.00"
+                self.passive_index_text.value = "0 %"
         else:
             # This should ideally not happen due to route guarding
             Logger.warning("DashboardView rendered without an authenticated user.")
@@ -50,18 +54,14 @@ class DashboardView:
             return ft.Container() # Return empty while redirecting
         
         # 2. Build Sidebar
-        sidebar = Sidebar(self.router, current_route="/", on_logout=self.handle_logout)
+        sidebar = Sidebar(self.router, current_route="/", on_logout=self.handle_logout, user_name=self.full_name)
 
         # 3. Build Header
         header = ft.Row([
             ft.Column([
-                ft.Text(I18n.t("dashboard.welcome").replace("{name}", self.full_name), 
-                        size=24, weight=ft.FontWeight.W_800, color=UserTheme.SECONDARY),
-                ft.Row([
-                   ft.Icon(ft.Icons.CALENDAR_TODAY_ROUNDED, size=14, color=ft.Colors.GREY_500),
-                   ft.Text("Hoy es 21 de Enero, 2026", size=14, color=ft.Colors.GREY_500), # Placeholder for date
-                ], spacing=8)
-            ], spacing=2),
+                ft.Text(I18n.t("dashboard.menu.dashboard"), 
+                        size=34, weight=ft.FontWeight.W_800, color=UserTheme.SECONDARY),
+            ], spacing=4),
             ft.Row([
                 ft.IconButton(ft.Icons.NOTIFICATIONS_OUTLINED, icon_color=ft.Colors.GREY_700),
                 ft.Container(
@@ -77,11 +77,13 @@ class DashboardView:
             ], spacing=10)
         ], alignment=ft.MainAxisAlignment.SPACE_BETWEEN)
 
-        # 4. Build Summary Cards
+        # 4. Build Summary Cards per PRD Order
         cards_row = ft.Row([
-            SummaryCard("dashboard.balance", self.balance_text, ft.Icons.ACCOUNT_BALANCE_WALLET, [UserTheme.PRIMARY, "#1A237E"]),
-            SummaryCard("dashboard.autonomy", self.autonomy_text, ft.Icons.TIMER_OUTLINED, ["#00BFA5", "#00796B"]),
-        ], spacing=20)
+            SummaryCard("dashboard.balance", self.balance_text, ft.Icons.ACCOUNT_BALANCE_WALLET_ROUNDED, UserTheme.SECONDARY),
+            SummaryCard("dashboard.savings", self.savings_text, ft.Icons.SAVINGS_ROUNDED, "#4F46E5"),
+            SummaryCard("dashboard.autonomy", self.autonomy_text, ft.Icons.TIMER_OUTLINED, "#0891B2"),
+            SummaryCard("dashboard.passive_index", self.passive_index_text, ft.Icons.PERCENT_ROUNDED, "#EA580C"),
+        ], spacing=20, scroll=ft.ScrollMode.ADAPTIVE)
 
         # 5. Quick Actions
         quick_actions = ft.Container(
@@ -100,18 +102,54 @@ class DashboardView:
             shadow=ft.BoxShadow(blur_radius=20, color=ft.Colors.with_opacity(0.05, ft.Colors.BLACK), offset=ft.Offset(0, 5))
         )
 
-        # 6. Main Content Layout
+        # 6. Health Section (Salud Patrimonial)
+        health_section = ft.Container(
+            content=ft.Column([
+                ft.Text(I18n.t("dashboard.health.title").upper(), size=13, weight=ft.FontWeight.W_700, color=ft.Colors.GREY_500),
+                ft.Row([
+                    ft.Container(
+                        content=ft.Column([
+                             ft.Icon(ft.Icons.PIE_CHART_ROUNDED, color=ft.Colors.BLUE_GREY_400, size=20),
+                             ft.Text(I18n.t("dashboard.health.iec"), size=13, weight=ft.FontWeight.W_500, color=ft.Colors.BLUE_GREY_400),
+                            ft.Text("0.0 %", size=24, weight=ft.FontWeight.W_800, color=UserTheme.SECONDARY),
+                        ], spacing=8),
+                        padding=25, 
+                        bgcolor=ft.Colors.WHITE, 
+                        border_radius=20, 
+                        expand=True,
+                        shadow=ft.BoxShadow(blur_radius=20, color=ft.Colors.with_opacity(0.03, ft.Colors.BLACK))
+                    ),
+                    ft.Container(
+                        content=ft.Column([
+                            ft.Icon(ft.Icons.MONETIZATION_ON_OUTLINED, color=ft.Colors.RED_300, size=20),
+                            ft.Text(I18n.t("dashboard.health.opportunity_cost"), size=13, weight=ft.FontWeight.W_500, color=ft.Colors.BLUE_GREY_400),
+                            ft.Text("$ 0.00", size=24, weight=ft.FontWeight.W_800, color=ft.Colors.RED_400),
+                        ], spacing=8),
+                        padding=25, 
+                        bgcolor=ft.Colors.WHITE, 
+                        border_radius=20, 
+                        expand=True,
+                        shadow=ft.BoxShadow(blur_radius=20, color=ft.Colors.with_opacity(0.03, ft.Colors.BLACK))
+                    ),
+                ], spacing=25)
+            ], spacing=20),
+            padding=ft.padding.only(top=10)
+        )
+
+        # 7. Main Content Layout
         main_content = ft.Container(
             content=ft.Column([
                 header,
-                ft.Container(height=20),
+                ft.Container(height=40),
                 cards_row,
-                ft.Container(height=30),
+                ft.Container(height=40),
+                health_section,
+                ft.Container(height=40),
                 quick_actions,
             ], spacing=0, scroll=ft.ScrollMode.ADAPTIVE),
             padding=40,
             expand=True,
-            bgcolor="#F8FAFC", # Very light slate background
+            bgcolor=UserTheme.BACKGROUND, 
         )
 
         return ft.Row([

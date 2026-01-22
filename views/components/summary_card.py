@@ -2,37 +2,42 @@ import flet as ft
 from core.i18n import I18n
 
 class SummaryCard(ft.Container):
-    def __init__(self, title_key, value_text_control, icon, gradient_colors):
+    def __init__(self, title_key, value_text_control, icon, icon_color="#0F172A"):
         super().__init__()
-        self.gradient_colors = gradient_colors
         
         # Build subtitle key
         subtitle_key = f"{title_key}_subtitle"
         subtitle_val = I18n.t(subtitle_key)
-        # Check if translation exists (if it returns the key in brackets, it doesn't exist)
         subtitle_text = subtitle_val if subtitle_val != f"[{subtitle_key}]" else ""
+
+        # Adjust value text control style for white background
+        value_text_control.color = "#0F172A"
+        value_text_control.size = 28
+        value_text_control.weight = ft.FontWeight.W_800
 
         self.content = ft.Column([
             ft.Row([
-                ft.Text(I18n.t(title_key), color=ft.Colors.WHITE70, size=14, weight=ft.FontWeight.W_500),
-                ft.Icon(icon, color=ft.Colors.WHITE, size=20, opacity=0.8),
-            ], alignment=ft.MainAxisAlignment.SPACE_BETWEEN),
-            ft.Container(height=10),
+                ft.Container(
+                    content=ft.Icon(icon, color=icon_color, size=22, opacity=0.9),
+                    padding=12,
+                    bgcolor=ft.Colors.with_opacity(0.08, icon_color),
+                    border_radius=12,
+                ),
+            ], alignment=ft.MainAxisAlignment.START),
+            ft.Container(height=25),
+            ft.Text(I18n.t(title_key).upper(), color="#94A3B8", size=11, weight=ft.FontWeight.W_700),
+            ft.Container(height=8),
             value_text_control,
-            ft.Container(height=5),
-            ft.Text(subtitle_text, color=ft.Colors.WHITE60, size=12),
+            ft.Container(height=8),
+            ft.Text(subtitle_text, color="#CBD5E1", size=11, weight=ft.FontWeight.W_400),
         ], spacing=0)
         
         self.padding = 25
-        self.border_radius = 20
-        self.gradient = ft.LinearGradient(
-            begin=ft.alignment.Alignment(-1, -1),
-            end=ft.alignment.Alignment(1, 1),
-            colors=gradient_colors,
-        )
+        self.bgcolor = ft.Colors.WHITE
+        self.border_radius = 24
         self.expand = True
         self.shadow = ft.BoxShadow(
-            blur_radius=15,
-            color=ft.Colors.with_opacity(0.2, gradient_colors[0]),
-            offset=ft.Offset(0, 8),
+            blur_radius=30,
+            color=ft.Colors.with_opacity(0.04, ft.Colors.BLACK),
+            offset=ft.Offset(0, 10),
         )

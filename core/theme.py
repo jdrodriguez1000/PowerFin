@@ -1,35 +1,38 @@
 class UserTheme:
     """
     Sistema de Temas para la App de Usuario de FinancApp.
-    Enfoque: Vibrante, Moderno, Premium.
+    Enfoque: Premium, Moderno, Limpio (Basado en Estética Fundify).
     """
     # Paleta de Colores
-    PRIMARY = "#B6E33E"         # Verde Lima (Acción)
-    SECONDARY = "#002A1C"       # Verde Bosque (Sidebar/Branding)
-    BACKGROUND = "#F4F7F6"      # Gris Neutro claro
+    PRIMARY = "#B6F09C"         # Verde Menta / Active Accent
+    SECONDARY = "#0F172A"       # Azul Marino Profundo (Primary Dark)
+    BACKGROUND = "#F8FAFC"      # Slate Ligero (Más profesional que el azul pastel)
+    PANEL = "#F7FBFD"           # Fondo de Sidebar/Paneles
     SURFACE = "#FFFFFF"         # Blanco (Cards)
+    LINK = "#4F46E5"            # Indigo (Links Premium)
+    DIVIDER = "#E2E8F0"         # Slate ligero para bordes/divisores
     
-    TEXT_PRIMARY = "#000000"    # Títulos
-    TEXT_SECONDARY = "#4A4A4A"  # Cuerpo
-    TEXT_MUTED = "#8E8E8E"      # Labels/Secundario
-    TEXT_DISABLED = "#B0BEC5"   # Texto deshabilitado/inactivo
+    TEXT_PRIMARY = "#0F172A"    # Títulos y texto fuerte
+    TEXT_SECONDARY = "#334155"  # Cuerpo de texto
+    TEXT_MUTED = "#64748B"      # Labels y textos secundarios (Slate)
     
-    # UI Elements
-    DIVIDER = "#F5F5F5"         # Divisores (Grey 100 equiv)
-    LINK = "#0D47A1"            # Azul Link
-    ERROR = "#EF5350"           # Rojo Error
+    # Estados
+    SUCCESS = "#B6F09C"
+    ERROR = "#FF8282"           # Coral suave
+    WARNING = "#FCD34D"
     
-    # Radios y Bordes
-    RADIUS_XL = 30              # Botones tipo píldora / Widgets principales
-    RADIUS_LG = 25              # Cards del Dashboard
-    RADIUS_MD = 15              # Inputs
+    # Radios (Redondeo Premium)
+    RADIUS_XL = 30              
+    RADIUS_LG = 20              # Cards del Dashboard
+    RADIUS_MD = 12              # Inputs / Menú items
+    RADIUS_SM = 8
     
     # Dimensiones Estándar
-    COMPONENT_WIDTH = 360       # Ancho estándar para inputs y botones
-    BUTTON_PADDING = 25         # Padding para botones (más alto)
+    COMPONENT_WIDTH = 360       
+    BUTTON_PADDING = 25         
 
     # Tipografía
-    FONT_FAMILY = "Montserrat, Inter, Proxima Nova, sans-serif"
+    FONT_FAMILY = "Inter, Montserrat, sans-serif"
 
 
 class AdminTheme:

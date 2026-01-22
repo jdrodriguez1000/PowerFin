@@ -124,19 +124,28 @@
         "welcome": "Hello, {name}!",
         "balance": "Total Balance",
         "autonomy": "Autonomy Days",
-        "autonomy_subtitle": "Based on average spending",
+        "autonomy_subtitle": "Covers essential expenses",
+        "savings": "Total Saved",
+        "passive_index": "Passive Index",
+        "passive_index_subtitle": "Passive income coverage",
         "quick_actions": "Quick Actions",
         "add_income": "New Income",
         "add_expense": "New Expense",
         "recent_activity": "Recent Activity",
         "menu": {
             "dashboard": "Summary",
+            "budget": "Budget",
             "accounts": "Accounts",
             "transactions": "Transactions",
             "goals": "Goals",
             "profile": "My Profile",
             "settings": "Settings",
             "logout": "Log Out"
+        },
+        "health": {
+            "title": "Wealth Health",
+            "iec": "Capital Efficiency Index (CEI)",
+            "opportunity_cost": "Opportunity Cost"
         }
     },
     "errors": {

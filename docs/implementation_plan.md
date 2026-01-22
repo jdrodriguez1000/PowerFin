@@ -40,45 +40,62 @@
 - [x] Logic to identify and redirect new users with incomplete mandatory data.
 - [x] Implement Smart Re-send Logic: Auto-resend verification email on unverified login and show feedback view (Zero Friction).
 
-## Phase 6: Core Dashboard View ⏳
-- [x] Sidebar/Navigation Drawer implementation (Component: Sidebar).
-- [x] Main dashboard summary cards (Component: SummaryCard).
+## Phase 6: Core Dashboard View ✅
+- [x] Sidebar/Navigation Drawer implementation with updated hierarchy and dark theme (#032313).
+- [x] Base Dashboard structure and SummaryCard component (Executive Redesign).
 - [x] Responsive grid layout for quick actions (Component: QuickAction).
-- [ ] Connect Real Data to Summary Cards.
-- [x] Implement logout functionality (Already in Sidebar and Dashboard).
+- [x] Implementation of the 4 Master KPIs (UI Placeholders):
+    1. Saldo Total, 2. Días de Autonomía, 3. Total Ahorrado, 4. Índice Pasivo.
+- [x] Implementation of "Salud Patrimonial" section:
+    * UI Placeholder for Índice de Eficiencia de Capital (IEC).
+    * UI Placeholder for Costo de Oportunidad.
+- [x] Implement logout functionality.
 
-## Phase 7: Mandatory Profile Completion ⏳
+## Phase 7: Gestión de Cuentas ⏳
+- [ ] Database schema for accounts (Banks, Cash, Investments).
+- [ ] UI for account inventory and balances.
+- [ ] Logic for account creation and basic balance updates.
+
+## Phase 8: Objetivos y Metas ⏳
+- [ ] Logic for "Fondo de Emergencia" and specific goals (Viajes, Educación).
+- [ ] Methods for contributions (Manual, Fixed, Percentage).
+- [ ] Autonomy Indicator connection (`Total Funds / Essential Expenses`).
+
+## Phase 9: Presupuesto Base Cero ⏳
+- [ ] UI for Zero-Based Budgeting (Assigning every dollar a job).
+- [ ] Logic to prevent "orphan money" (every cent must have a destination).
+- [ ] Funds transfer logic between categories.
+
+## Phase 10: Transacciones y Flujo de Caja ⏳
+- [ ] Implementation of transaction logging (Daily flow).
+- [ ] Categorization of Essential vs. Non-Essential.
+- [ ] Linking transactions to accounts and budgets.
+
+## Phase 11: Resumen (Lógica & Backend Integration) ⏳
+- [ ] Connect real-time Supabase data to the 4 Master KPIs.
+- [ ] Calculate Capital Efficiency Index (IEC) from real assets vs inflation.
+- [ ] Real-time "Costo de Oportunidad" calculator.
+
+## Phase 12: Mandatory Profile Completion & Shielding ⏳
 - [ ] Logic to check for incomplete profiles on every login.
 - [ ] Forced redirect to completion view if mandatory data is missing.
-- [ ] Profile completion progress indicator.
+- [ ] Navigation rules to prevent unauthorized access to restricted views.
 
-## Phase 8: Advanced User Profile & Personalization ⏳
+## Phase 13: Advanced User Profile & Personalization ⏳
 - [ ] Extended Personal Data: Name, Gender, Birth Date, Civil Status, Education Level.
 - [ ] Financial Profiling: Risk Profile (Conservative/Moderate/Aggressive) & Work Sector.
 - [ ] Avatar field implementation (Optional image upload & storage).
-- [ ] User preferences persistence.
 
-## Phase 9: Advanced Language Settings ⏳
-- [ ] Implement Portuguese (PT) support across all views.
-- [ ] Persistent language selection in user profile.
-- [ ] Dynamic localization of financial glosary and insights.
-
-## Phase 10: Security & Password Management ⏳
+## Phase 14: Security & Password Management ⏳
 - [ ] Change password functionality (Internal).
 - [ ] Current/New password verification.
 - [ ] Session lifecycle management.
 
-## Phase 11: Navigation Shielding & Route Guarding ⏳
-- [ ] Core router enhancement with shielding logic.
-- [ ] Prevent skipping mandatory steps (Registration -> Verification -> Profile).
-- [ ] Navigation rules to prevent unauthorized access to restricted views.
-
-## Phase 12: Testing, Technical Debt & Final Polish ⏳
+## Phase 15: Testing, Technical Debt & Final Polish ⏳
 - [ ] Comprehensive suite of unit and integration tests.
 - [ ] Refactoring of legacy code and technical debt resolution.
 - [ ] Performance optimization and final visual polish.
-- [ ] Deployment bundle preparation.
 
 ---
-*Last updated: 2026-01-21*
+*Last updated: 2026-01-22*
 *Drafted by: Antigravity AI*

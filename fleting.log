@@ -1825,3 +1825,523 @@ AttributeError: 'NoneType' object has no attribute 'put_nowait'
 2026-01-21 18:57:14,016 - flet_web.fastapi - INFO - Shutting down Flet App Manager
 2026-01-21 18:57:14,017 - flet_web.fastapi - INFO - Deleting temp dir: C:\Users\USUARIO\AppData\Local\Temp\tmp596sc_ka
 2026-01-21 18:57:14,019 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-22 10:26:16,263 - root - INFO - Starting PowerFin...
+2026-01-22 10:26:16,263 - root - INFO - Initializing Supabase connection...
+2026-01-22 10:26:16,263 - root - WARNING - Supabase URL or Key missing. Database connection not established.
+2026-01-22 10:26:16,263 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 10:26:16,263 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 10:26:19,267 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-22 10:26:38,206 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 10:30:44,261 - flet_web.fastapi - INFO - Session disconnected: _Qz8OEwXKK1uXnaVt_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 10:30:44,261 - flet_web.fastapi - INFO - Disposing FletApp: ismKNpVu
+2026-01-22 10:30:44,394 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-22 10:30:44,421 - flet_web.fastapi - INFO - Deleting temp dir: C:\Users\USUARIO\AppData\Local\Temp\tmp464se6_h
+2026-01-22 10:30:44,443 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-22 10:35:42,200 - root - INFO - Starting PowerFin...
+2026-01-22 10:35:42,200 - root - INFO - Initializing Supabase connection...
+2026-01-22 10:35:42,202 - root - WARNING - Supabase URL or Key missing. Database connection not established.
+2026-01-22 10:35:42,202 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 10:35:42,205 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 10:35:51,749 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-22 10:38:40,318 - root - INFO - Sanitized redirect URL for Supabase: http://127.0.0.1:8551
+2026-01-22 10:38:40,318 - root - INFO - Attempting signup for: jdrodriguez1000@gmail.com
+2026-01-22 10:38:40,322 - root - ERROR - Signup error: 'NoneType' object has no attribute 'auth'
+2026-01-22 10:50:21,399 - flet_web.fastapi - INFO - Session disconnected: _mZkQEtwlHHf65kWY_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 10:50:21,402 - flet_web.fastapi - INFO - Disposing FletApp: AZZFcpuR
+2026-01-22 10:50:21,497 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-22 10:50:21,498 - flet_web.fastapi - INFO - Deleting temp dir: C:\Users\USUARIO\AppData\Local\Temp\tmppfw5r369
+2026-01-22 10:50:21,501 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-22 10:56:20,466 - root - INFO - Starting PowerFin...
+2026-01-22 10:56:20,470 - root - INFO - Initializing Supabase connection...
+2026-01-22 10:56:20,470 - root - WARNING - Supabase URL or Key missing. Database connection not established.
+2026-01-22 10:56:20,472 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 10:56:20,473 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 10:56:23,073 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-22 10:58:05,827 - root - INFO - Sanitized redirect URL for Supabase: http://127.0.0.1:8551
+2026-01-22 10:58:05,827 - root - INFO - Attempting signup for: jdrodriguez1000@gmail.com
+2026-01-22 10:58:05,829 - root - ERROR - Signup error: 'NoneType' object has no attribute 'auth'
+2026-01-22 10:58:42,223 - root - INFO - Starting PowerFin...
+2026-01-22 10:58:42,226 - root - INFO - Initializing Supabase connection...
+2026-01-22 10:58:42,226 - root - WARNING - Supabase URL or Key missing. Database connection not established.
+2026-01-22 10:58:42,226 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 10:58:42,227 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 10:58:55,961 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-22 10:59:22,042 - root - INFO - Sanitized redirect URL for Supabase: http://127.0.0.1:8551
+2026-01-22 10:59:22,044 - root - INFO - Attempting signup for: jdrodriguez1000@gmail.com
+2026-01-22 10:59:22,045 - root - ERROR - Signup error: 'NoneType' object has no attribute 'auth'
+2026-01-22 11:04:53,927 - flet_web.fastapi - INFO - Session disconnected: _2vrpNW1I6TkUQrCu_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 11:04:53,929 - flet_web.fastapi - INFO - Disposing FletApp: Mfur61d6
+2026-01-22 11:04:54,046 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-22 11:04:54,046 - flet_web.fastapi - INFO - Deleting temp dir: C:\Users\USUARIO\AppData\Local\Temp\tmp6xpitig9
+2026-01-22 11:04:54,050 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-22 11:05:13,627 - root - INFO - Starting PowerFin...
+2026-01-22 11:05:13,629 - root - INFO - Initializing Supabase connection...
+2026-01-22 11:05:14,820 - root - INFO - Supabase client created successfully.
+2026-01-22 11:05:14,822 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 11:05:14,822 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 11:05:17,328 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-22 11:05:48,838 - root - INFO - Sanitized redirect URL for Supabase: http://127.0.0.1:8551
+2026-01-22 11:05:48,839 - root - INFO - Attempting signup for: jdrodriguez1000@gmail.com
+2026-01-22 11:05:48,842 - root - ERROR - Signup error: SyncGoTrueClient.sign_up() got an unexpected keyword argument 'email'
+2026-01-22 11:10:40,703 - flet_web.fastapi - INFO - Session disconnected: _dANANEln8Vg7QgUY_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 11:10:40,706 - flet_web.fastapi - INFO - Disposing FletApp: wjWLiuAS
+2026-01-22 11:10:40,868 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-22 11:10:40,893 - flet_web.fastapi - INFO - Deleting temp dir: C:\Users\USUARIO\AppData\Local\Temp\tmpwhmn_ft4
+2026-01-22 11:10:40,924 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-22 11:10:51,093 - root - INFO - Starting PowerFin...
+2026-01-22 11:10:51,095 - root - INFO - Initializing Supabase connection...
+2026-01-22 11:10:52,313 - root - INFO - Supabase client created successfully.
+2026-01-22 11:10:52,318 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 11:10:52,318 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 11:10:52,568 - flet_web.fastapi - INFO - Temp dir created for patched index and manifest: C:\Users\USUARIO\AppData\Local\Temp\tmp8vih26jy
+2026-01-22 11:10:52,572 - flet_web.fastapi - INFO - Web root: C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet_web\web
+2026-01-22 11:10:52,573 - flet_web.fastapi - INFO - Assets dir: C:\Users\USUARIO\Documents\Proyectos\FinancApp\assets
+2026-01-22 11:10:53,355 - flet_web.fastapi - INFO - New FletApp: u1XZZ6DJ
+2026-01-22 11:10:53,363 - flet_web.fastapi - INFO - New session created (2 total): _h8nvceCxRivGXnYC_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 11:10:53,373 - flet_web.fastapi - INFO - Start session: h8nvceCxRivGXnYC
+2026-01-22 11:10:53,375 - root - INFO - Starting PowerFin...
+2026-01-22 11:10:53,378 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 11:10:53,379 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 11:10:53,587 - flet_web.fastapi - INFO - Session disconnected: _PhdSjn7Th6Cl6Evv_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 11:10:53,589 - flet_web.fastapi - INFO - Disposing FletApp: rhBqA5vU
+2026-01-22 11:10:56,019 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-22 11:11:24,429 - root - INFO - Sanitized redirect URL for Supabase: http://127.0.0.1:8551
+2026-01-22 11:11:24,431 - root - INFO - Attempting signup for: jdrodriguez1000@gmail.com
+2026-01-22 11:11:26,763 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/signup?redirect_to=http%3A%2F%2F127.0.0.1%3A8551 "HTTP/2 200 OK"
+2026-01-22 11:11:26,774 - root - INFO - Signup successful for: jdrodriguez1000@gmail.com
+2026-01-22 11:11:37,299 - flet_web.fastapi - INFO - New FletApp: w4n6JkgE
+2026-01-22 11:11:37,314 - flet_web.fastapi - INFO - New session created (3 total): _gMQbMlJZUREj8Hc7_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 11:11:37,318 - flet_web.fastapi - INFO - Start session: gMQbMlJZUREj8Hc7
+2026-01-22 11:11:37,320 - root - INFO - Starting PowerFin...
+2026-01-22 11:11:37,323 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 11:11:37,323 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 11:11:40,943 - asyncio - ERROR - Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto
+2026-01-22 11:11:41,048 - flet_web.fastapi - INFO - Session disconnected: _h8nvceCxRivGXnYC_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 11:11:41,049 - flet_web.fastapi - INFO - Disposing FletApp: u1XZZ6DJ
+2026-01-22 11:11:55,793 - root - INFO - Attempting login for: jdrodriguez1000@gmail.com
+2026-01-22 11:11:56,355 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=password "HTTP/2 200 OK"
+2026-01-22 11:11:56,362 - root - INFO - Login successful for: jdrodriguez1000@gmail.com
+2026-01-22 11:11:58,236 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 11:11:58,240 - root - INFO - User 41640d2a-b172-4ece-a678-1b9172785667 logged in. Profile incomplete. Going to Onboarding.
+2026-01-22 11:11:58,240 - root - INFO - Navigating to /onboarding -> views.pages.onboarding_view.OnboardingView
+2026-01-22 11:11:58,610 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 11:11:58,915 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/currencies?select=%2A "HTTP/2 200 OK"
+2026-01-22 11:12:05,113 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 11:12:05,115 - root - INFO - Submitting onboarding for 41640d2a-b172-4ece-a678-1b9172785667: Currency=COP, Lang=es
+2026-01-22 11:12:05,115 - root - INFO - Updating Supabase Profile 41640d2a-b172-4ece-a678-1b9172785667 with data: {'full_name': 'John Rodriguez', 'currency_code': 'COP', 'preferred_language': 'es'}
+2026-01-22 11:12:05,521 - httpx - INFO - HTTP Request: PATCH https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 11:12:05,524 - root - INFO - Onboarding update success. Data response: [{'id': '41640d2a-b172-4ece-a678-1b9172785667', 'updated_at': '2026-01-22T16:11:25.864329+00:00', 'full_name': 'John Rodriguez', 'currency_code': 'COP', 'preferred_language': 'es'}]
+2026-01-22 11:12:05,526 - root - INFO - Navigating to / -> views.pages.dashboard_view.DashboardView
+2026-01-22 11:12:05,879 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 11:12:06,185 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 11:12:25,029 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/logout?scope=global "HTTP/2 204 No Content"
+2026-01-22 11:12:25,035 - root - INFO - User signed out.
+2026-01-22 11:12:25,036 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 11:12:57,195 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-22 11:13:45,523 - root - INFO - Sanitized redirect URL for Supabase: http://127.0.0.1:8551
+2026-01-22 11:13:45,523 - root - INFO - Attempting signup for: jdrodriguez1000+1@gmail.com
+2026-01-22 11:13:46,644 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/signup?redirect_to=http%3A%2F%2F127.0.0.1%3A8551 "HTTP/2 200 OK"
+2026-01-22 11:13:46,646 - root - INFO - Signup successful for: jdrodriguez1000+1@gmail.com
+2026-01-22 11:13:57,329 - flet_web.fastapi - INFO - New FletApp: 1RDva49P
+2026-01-22 11:13:57,345 - flet_web.fastapi - INFO - New session created (4 total): _FMvqs0Q9T3svUEku_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 11:13:57,350 - flet_web.fastapi - INFO - Start session: FMvqs0Q9T3svUEku
+2026-01-22 11:13:57,357 - root - INFO - Starting PowerFin...
+2026-01-22 11:13:57,359 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 11:13:57,360 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 11:13:58,710 - flet_web.fastapi - INFO - Session disconnected: _gMQbMlJZUREj8Hc7_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 11:13:58,710 - flet_web.fastapi - INFO - Disposing FletApp: w4n6JkgE
+2026-01-22 11:14:32,468 - root - INFO - Attempting login for: jdrodriguez1000+1@gmail.com
+2026-01-22 11:14:32,974 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=password "HTTP/2 200 OK"
+2026-01-22 11:14:32,978 - root - INFO - Login successful for: jdrodriguez1000+1@gmail.com
+2026-01-22 11:14:34,039 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.7ba59098-ca25-4481-83a8-cd2b760ebf15 "HTTP/2 200 OK"
+2026-01-22 11:14:34,042 - root - INFO - User 7ba59098-ca25-4481-83a8-cd2b760ebf15 logged in. Profile incomplete. Going to Onboarding.
+2026-01-22 11:14:34,043 - root - INFO - Navigating to /onboarding -> views.pages.onboarding_view.OnboardingView
+2026-01-22 11:14:34,256 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 11:14:34,563 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/currencies?select=%2A "HTTP/2 200 OK"
+2026-01-22 11:15:01,126 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 11:15:01,130 - root - INFO - Submitting onboarding for 7ba59098-ca25-4481-83a8-cd2b760ebf15: Currency=USD, Lang=en
+2026-01-22 11:15:01,132 - root - INFO - Updating Supabase Profile 7ba59098-ca25-4481-83a8-cd2b760ebf15 with data: {'full_name': 'John Primero', 'currency_code': 'USD', 'preferred_language': 'en'}
+2026-01-22 11:15:01,618 - httpx - INFO - HTTP Request: PATCH https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?id=eq.7ba59098-ca25-4481-83a8-cd2b760ebf15 "HTTP/2 200 OK"
+2026-01-22 11:15:01,621 - root - INFO - Onboarding update success. Data response: [{'id': '7ba59098-ca25-4481-83a8-cd2b760ebf15', 'updated_at': '2026-01-22T16:13:46.009868+00:00', 'full_name': 'John Primero', 'currency_code': 'USD', 'preferred_language': 'en'}]
+2026-01-22 11:15:01,624 - root - INFO - Navigating to / -> views.pages.dashboard_view.DashboardView
+2026-01-22 11:15:01,862 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 11:15:02,097 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.7ba59098-ca25-4481-83a8-cd2b760ebf15 "HTTP/2 200 OK"
+2026-01-22 11:15:15,847 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/logout?scope=global "HTTP/2 204 No Content"
+2026-01-22 11:15:15,852 - root - INFO - User signed out.
+2026-01-22 11:15:15,852 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 11:15:18,913 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-22 11:16:11,764 - root - INFO - Sanitized redirect URL for Supabase: http://127.0.0.1:8551
+2026-01-22 11:16:11,772 - root - INFO - Attempting signup for: jdrodriguez1000+2@gmail.com
+2026-01-22 11:16:12,842 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/signup?redirect_to=http%3A%2F%2F127.0.0.1%3A8551 "HTTP/2 200 OK"
+2026-01-22 11:16:12,845 - root - INFO - Signup successful for: jdrodriguez1000+2@gmail.com
+2026-01-22 11:16:29,993 - flet_web.fastapi - INFO - New FletApp: GslAm9hi
+2026-01-22 11:16:29,997 - flet_web.fastapi - INFO - New session created (5 total): _PzOq8KHyUl7Lu0eD_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 11:16:30,002 - flet_web.fastapi - INFO - Start session: PzOq8KHyUl7Lu0eD
+2026-01-22 11:16:30,005 - root - INFO - Starting PowerFin...
+2026-01-22 11:16:30,006 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 11:16:30,007 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 11:16:32,545 - flet_web.fastapi - INFO - Session disconnected: _FMvqs0Q9T3svUEku_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 11:16:32,545 - flet_web.fastapi - INFO - Disposing FletApp: 1RDva49P
+2026-01-22 11:16:55,913 - root - INFO - Attempting login for: jdrodriguez1000+2@gmail.com
+2026-01-22 11:16:56,474 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=password "HTTP/2 200 OK"
+2026-01-22 11:16:56,478 - root - INFO - Login successful for: jdrodriguez1000+2@gmail.com
+2026-01-22 11:16:57,836 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.4414fb2d-c5f0-47d6-983b-05f7134bbc90 "HTTP/2 200 OK"
+2026-01-22 11:16:57,838 - root - INFO - User 4414fb2d-c5f0-47d6-983b-05f7134bbc90 logged in. Profile incomplete. Going to Onboarding.
+2026-01-22 11:16:57,838 - root - INFO - Navigating to /onboarding -> views.pages.onboarding_view.OnboardingView
+2026-01-22 11:16:58,031 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 11:16:58,271 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/currencies?select=%2A "HTTP/2 200 OK"
+2026-01-22 11:17:12,764 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 11:17:12,768 - root - INFO - Submitting onboarding for 4414fb2d-c5f0-47d6-983b-05f7134bbc90: Currency=EUR, Lang=pt
+2026-01-22 11:17:12,769 - root - INFO - Updating Supabase Profile 4414fb2d-c5f0-47d6-983b-05f7134bbc90 with data: {'full_name': 'John Segundo', 'currency_code': 'EUR', 'preferred_language': 'pt'}
+2026-01-22 11:17:13,159 - httpx - INFO - HTTP Request: PATCH https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?id=eq.4414fb2d-c5f0-47d6-983b-05f7134bbc90 "HTTP/2 200 OK"
+2026-01-22 11:17:13,162 - root - INFO - Onboarding update success. Data response: [{'id': '4414fb2d-c5f0-47d6-983b-05f7134bbc90', 'updated_at': '2026-01-22T16:16:12.242187+00:00', 'full_name': 'John Segundo', 'currency_code': 'EUR', 'preferred_language': 'pt'}]
+2026-01-22 11:17:13,163 - root - INFO - Navigating to / -> views.pages.dashboard_view.DashboardView
+2026-01-22 11:17:13,390 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 11:17:13,638 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.4414fb2d-c5f0-47d6-983b-05f7134bbc90 "HTTP/2 200 OK"
+2026-01-22 11:17:36,506 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/logout?scope=global "HTTP/2 204 No Content"
+2026-01-22 11:17:36,511 - root - INFO - User signed out.
+2026-01-22 11:17:36,511 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 11:17:56,584 - root - INFO - Attempting login for: jdrodriguez1000@gmail.com
+2026-01-22 11:17:57,431 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=password "HTTP/2 200 OK"
+2026-01-22 11:17:57,435 - root - INFO - Login successful for: jdrodriguez1000@gmail.com
+2026-01-22 11:17:58,758 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 11:17:58,762 - root - INFO - Applied language preference: es
+2026-01-22 11:17:58,763 - root - INFO - User 41640d2a-b172-4ece-a678-1b9172785667 logged in. Profile complete. Going to Dashboard.
+2026-01-22 11:17:58,763 - root - INFO - Navigating to / -> views.pages.dashboard_view.DashboardView
+2026-01-22 11:17:59,004 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 11:17:59,238 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 11:18:02,319 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/logout?scope=global "HTTP/2 204 No Content"
+2026-01-22 11:18:02,325 - root - INFO - User signed out.
+2026-01-22 11:18:02,326 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 11:18:04,987 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-22 11:18:08,371 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 11:18:12,620 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-22 11:20:04,014 - root - INFO - Sanitized redirect URL for Supabase: http://127.0.0.1:8551
+2026-01-22 11:20:04,019 - root - INFO - Attempting signup for: jdrodriguez1000@gmail.com
+2026-01-22 11:20:04,633 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/signup?redirect_to=http%3A%2F%2F127.0.0.1%3A8551 "HTTP/2 200 OK"
+2026-01-22 11:20:04,635 - root - INFO - Signup successful for: jdrodriguez1000@gmail.com
+2026-01-22 11:20:38,291 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 11:20:59,446 - root - INFO - Attempting login for: jdrodriguez@gmail.com
+2026-01-22 11:20:59,835 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=password "HTTP/2 400 Bad Request"
+2026-01-22 11:20:59,838 - root - ERROR - Login error: Invalid login credentials
+2026-01-22 11:21:14,546 - root - INFO - Attempting login for: jdrodriguez1000@gmail.com
+2026-01-22 11:21:15,056 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=password "HTTP/2 400 Bad Request"
+2026-01-22 11:21:15,058 - root - ERROR - Login error: Invalid login credentials
+2026-01-22 11:21:26,430 - root - INFO - Attempting login for: jdrodriguez1000@gmail.com
+2026-01-22 11:21:27,179 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=password "HTTP/2 400 Bad Request"
+2026-01-22 11:21:27,182 - root - ERROR - Login error: Invalid login credentials
+2026-01-22 11:21:44,339 - root - INFO - Navigating to /register -> views.pages.register_view.RegisterView
+2026-01-22 11:22:53,466 - root - INFO - Sanitized redirect URL for Supabase: http://127.0.0.1:8551
+2026-01-22 11:22:53,467 - root - INFO - Attempting signup for: jdrodriguez1000+3@gmail.com
+2026-01-22 11:22:54,635 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/signup?redirect_to=http%3A%2F%2F127.0.0.1%3A8551 "HTTP/2 200 OK"
+2026-01-22 11:22:54,639 - root - INFO - Signup successful for: jdrodriguez1000+3@gmail.com
+2026-01-22 11:23:44,858 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 11:24:53,100 - root - INFO - Attempting login for: jdrodriguez1000+3@gmail.com
+2026-01-22 11:24:53,888 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=password "HTTP/2 400 Bad Request"
+2026-01-22 11:24:53,890 - root - ERROR - Login error: Invalid login credentials
+2026-01-22 11:25:03,802 - root - INFO - Attempting login for: jdrodriguez1000+3@gmail.com
+2026-01-22 11:25:04,389 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=password "HTTP/2 400 Bad Request"
+2026-01-22 11:25:04,391 - root - ERROR - Login error: Email not confirmed
+2026-01-22 11:25:04,391 - root - INFO - Triggering smart resend for unverified email: jdrodriguez1000+3@gmail.com
+2026-01-22 11:25:04,438 - root - INFO - Sanitized redirect URL for Supabase (Login): http://127.0.0.1:8551
+2026-01-22 11:25:04,443 - root - INFO - Resending verification email to: jdrodriguez1000+3@gmail.com
+2026-01-22 11:25:04,931 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/resend?redirect_to=http%3A%2F%2F127.0.0.1%3A8551 "HTTP/2 200 OK"
+2026-01-22 11:25:04,933 - root - INFO - Verification email resent to: jdrodriguez1000+3@gmail.com
+2026-01-22 11:25:19,132 - flet_web.fastapi - INFO - New FletApp: HgmnKRKU
+2026-01-22 11:25:19,137 - flet_web.fastapi - INFO - New session created (6 total): _1DRKLOZRPhqe3A4K_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 11:25:19,140 - flet_web.fastapi - INFO - Start session: 1DRKLOZRPhqe3A4K
+2026-01-22 11:25:19,142 - root - INFO - Starting PowerFin...
+2026-01-22 11:25:19,144 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 11:25:19,146 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 11:25:21,193 - flet_web.fastapi - INFO - Session disconnected: _PzOq8KHyUl7Lu0eD_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 11:25:21,196 - flet_web.fastapi - INFO - Disposing FletApp: GslAm9hi
+2026-01-22 11:25:37,387 - root - INFO - Attempting login for: jdrodriguez1000+3@gmail.com
+2026-01-22 11:25:38,001 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=password "HTTP/2 200 OK"
+2026-01-22 11:25:38,008 - root - INFO - Login successful for: jdrodriguez1000+3@gmail.com
+2026-01-22 11:25:39,567 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.ea35b659-e7d5-44b6-95f3-600be7729fc3 "HTTP/2 200 OK"
+2026-01-22 11:25:39,568 - root - INFO - User ea35b659-e7d5-44b6-95f3-600be7729fc3 logged in. Profile incomplete. Going to Onboarding.
+2026-01-22 11:25:39,569 - root - INFO - Navigating to /onboarding -> views.pages.onboarding_view.OnboardingView
+2026-01-22 11:25:39,772 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 11:25:40,022 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/currencies?select=%2A "HTTP/2 200 OK"
+2026-01-22 11:25:43,296 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 11:25:43,296 - root - INFO - Submitting onboarding for ea35b659-e7d5-44b6-95f3-600be7729fc3: Currency=COP, Lang=es
+2026-01-22 11:25:43,300 - root - INFO - Updating Supabase Profile ea35b659-e7d5-44b6-95f3-600be7729fc3 with data: {'full_name': 'John Tercero', 'currency_code': 'COP', 'preferred_language': 'es'}
+2026-01-22 11:25:43,527 - httpx - INFO - HTTP Request: PATCH https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?id=eq.ea35b659-e7d5-44b6-95f3-600be7729fc3 "HTTP/2 200 OK"
+2026-01-22 11:25:43,530 - root - INFO - Onboarding update success. Data response: [{'id': 'ea35b659-e7d5-44b6-95f3-600be7729fc3', 'updated_at': '2026-01-22T16:22:53.919219+00:00', 'full_name': 'John Tercero', 'currency_code': 'COP', 'preferred_language': 'es'}]
+2026-01-22 11:25:43,533 - root - INFO - Navigating to / -> views.pages.dashboard_view.DashboardView
+2026-01-22 11:25:43,737 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 11:25:43,982 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.ea35b659-e7d5-44b6-95f3-600be7729fc3 "HTTP/2 200 OK"
+2026-01-22 12:11:02,120 - flet_web.fastapi - INFO - Delete session (5 left): _PhdSjn7Th6Cl6Evv_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 12:11:42,179 - flet_web.fastapi - INFO - Delete session (4 left): _h8nvceCxRivGXnYC_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 12:14:02,255 - flet_web.fastapi - INFO - Delete session (3 left): _gMQbMlJZUREj8Hc7_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 12:16:42,379 - flet_web.fastapi - INFO - Delete session (2 left): _FMvqs0Q9T3svUEku_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 12:25:22,618 - flet_web.fastapi - INFO - Delete session (1 left): _PzOq8KHyUl7Lu0eD_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 12:25:28,504 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=refresh_token "HTTP/2 200 OK"
+2026-01-22 12:25:28,748 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=refresh_token "HTTP/2 200 OK"
+2026-01-22 12:45:08,115 - flet_web.fastapi - INFO - Session disconnected: _1DRKLOZRPhqe3A4K_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 12:45:08,115 - flet_web.fastapi - INFO - Disposing FletApp: HgmnKRKU
+2026-01-22 12:52:43,393 - root - INFO - Starting PowerFin...
+2026-01-22 12:52:43,393 - root - INFO - Initializing Supabase connection...
+2026-01-22 12:52:43,615 - root - INFO - Supabase client created successfully.
+2026-01-22 12:52:43,616 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 12:52:43,617 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 12:53:00,517 - root - INFO - Attempting login for: jdrodriguez1000@gmail.com
+2026-01-22 12:53:01,902 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=password "HTTP/2 200 OK"
+2026-01-22 12:53:01,905 - root - INFO - Login successful for: jdrodriguez1000@gmail.com
+2026-01-22 12:53:03,705 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 12:53:03,710 - root - INFO - Applied language preference: es
+2026-01-22 12:53:03,711 - root - INFO - User 41640d2a-b172-4ece-a678-1b9172785667 logged in. Profile complete. Going to Dashboard.
+2026-01-22 12:53:03,712 - root - INFO - Navigating to / -> views.pages.dashboard_view.DashboardView
+2026-01-22 12:53:03,960 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 12:53:04,186 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 12:56:49,343 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/logout?scope=global "HTTP/2 204 No Content"
+2026-01-22 12:56:49,350 - root - INFO - User signed out.
+2026-01-22 12:56:49,350 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 12:57:04,991 - root - INFO - Attempting login for: jdrodriguez1000+1@gmail.com
+2026-01-22 12:57:05,581 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=password "HTTP/2 200 OK"
+2026-01-22 12:57:05,584 - root - INFO - Login successful for: jdrodriguez1000+1@gmail.com
+2026-01-22 12:57:06,917 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.7ba59098-ca25-4481-83a8-cd2b760ebf15 "HTTP/2 200 OK"
+2026-01-22 12:57:06,921 - root - INFO - Applied language preference: en
+2026-01-22 12:57:06,924 - root - INFO - User 7ba59098-ca25-4481-83a8-cd2b760ebf15 logged in. Profile complete. Going to Dashboard.
+2026-01-22 12:57:06,924 - root - INFO - Navigating to / -> views.pages.dashboard_view.DashboardView
+2026-01-22 12:57:07,146 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 12:57:07,384 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.7ba59098-ca25-4481-83a8-cd2b760ebf15 "HTTP/2 200 OK"
+2026-01-22 12:57:17,170 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/logout?scope=global "HTTP/2 204 No Content"
+2026-01-22 12:57:17,174 - root - INFO - User signed out.
+2026-01-22 12:57:17,175 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 12:57:44,975 - root - INFO - Attempting login for: jdrodriguez1000+2@gmail.com
+2026-01-22 12:57:45,502 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=password "HTTP/2 200 OK"
+2026-01-22 12:57:45,508 - root - INFO - Login successful for: jdrodriguez1000+2@gmail.com
+2026-01-22 12:57:47,083 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.4414fb2d-c5f0-47d6-983b-05f7134bbc90 "HTTP/2 200 OK"
+2026-01-22 12:57:47,088 - root - INFO - Applied language preference: pt
+2026-01-22 12:57:47,088 - root - INFO - User 4414fb2d-c5f0-47d6-983b-05f7134bbc90 logged in. Profile complete. Going to Dashboard.
+2026-01-22 12:57:47,088 - root - INFO - Navigating to / -> views.pages.dashboard_view.DashboardView
+2026-01-22 12:57:47,299 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 12:57:47,509 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.4414fb2d-c5f0-47d6-983b-05f7134bbc90 "HTTP/2 200 OK"
+2026-01-22 12:58:23,833 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/logout?scope=global "HTTP/2 204 No Content"
+2026-01-22 12:58:23,837 - root - INFO - User signed out.
+2026-01-22 12:58:23,839 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 12:58:43,078 - root - INFO - Attempting login for: jdrodriguez1000@gmail.com
+2026-01-22 12:58:43,745 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=password "HTTP/2 200 OK"
+2026-01-22 12:58:43,749 - root - INFO - Login successful for: jdrodriguez1000@gmail.com
+2026-01-22 12:58:45,069 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 12:58:45,071 - root - INFO - Applied language preference: es
+2026-01-22 12:58:45,073 - root - INFO - User 41640d2a-b172-4ece-a678-1b9172785667 logged in. Profile complete. Going to Dashboard.
+2026-01-22 12:58:45,074 - root - INFO - Navigating to / -> views.pages.dashboard_view.DashboardView
+2026-01-22 12:58:45,279 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 12:58:45,488 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 13:00:39,713 - flet_web.fastapi - INFO - Session disconnected: _OmlxVbrON9vbXjIw_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 13:00:39,713 - flet_web.fastapi - INFO - Disposing FletApp: E3wTDKDE
+2026-01-22 13:00:39,811 - flet_web.fastapi - INFO - New FletApp: 8CwXsdLz
+2026-01-22 13:00:39,842 - flet_web.fastapi - INFO - Session reconnected: _OmlxVbrON9vbXjIw_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 13:00:39,904 - root - INFO - Route changed to: /
+2026-01-22 13:00:39,905 - root - INFO - Navigating to / -> views.pages.dashboard_view.DashboardView
+2026-01-22 13:00:40,473 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 13:00:40,882 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 13:00:44,985 - flet_web.fastapi - INFO - Session disconnected: _OmlxVbrON9vbXjIw_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 13:00:44,987 - flet_web.fastapi - INFO - Disposing FletApp: 8CwXsdLz
+2026-01-22 13:00:45,102 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-22 13:00:45,103 - flet_web.fastapi - INFO - Deleting temp dir: C:\Users\USUARIO\AppData\Local\Temp\tmp593eom0w
+2026-01-22 13:00:45,106 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-22 13:00:53,373 - root - INFO - Starting PowerFin...
+2026-01-22 13:00:53,374 - root - INFO - Initializing Supabase connection...
+2026-01-22 13:00:53,594 - root - INFO - Supabase client created successfully.
+2026-01-22 13:00:53,595 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 13:00:53,595 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 13:00:53,625 - flet_web.fastapi - INFO - New FletApp: KGDSMSh0
+2026-01-22 13:00:53,689 - flet_web.fastapi - INFO - New session created (2 total): _CZOT7U3My7BZeYFv_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 13:00:53,690 - flet_web.fastapi - INFO - Start session: CZOT7U3My7BZeYFv
+2026-01-22 13:00:53,691 - root - INFO - Starting PowerFin...
+2026-01-22 13:00:53,691 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 13:00:53,694 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 13:00:54,929 - flet_web.fastapi - INFO - Temp dir created for patched index and manifest: C:\Users\USUARIO\AppData\Local\Temp\tmp596x7sam
+2026-01-22 13:00:54,931 - flet_web.fastapi - INFO - Web root: C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet_web\web
+2026-01-22 13:00:54,932 - flet_web.fastapi - INFO - Assets dir: C:\Users\USUARIO\Documents\Proyectos\FinancApp\assets
+2026-01-22 13:00:55,805 - flet_web.fastapi - INFO - Session disconnected: _776iwjRxk7pSn7BY_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 13:00:55,805 - flet_web.fastapi - INFO - Disposing FletApp: d6m7UFT5
+2026-01-22 13:01:15,031 - root - INFO - Attempting login for: jdrodriguez1000@gmail.com
+2026-01-22 13:01:15,658 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=password "HTTP/2 200 OK"
+2026-01-22 13:01:15,661 - root - INFO - Login successful for: jdrodriguez1000@gmail.com
+2026-01-22 13:01:17,114 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 13:01:17,124 - root - INFO - Applied language preference: es
+2026-01-22 13:01:17,124 - root - INFO - User 41640d2a-b172-4ece-a678-1b9172785667 logged in. Profile complete. Going to Dashboard.
+2026-01-22 13:01:17,125 - root - INFO - Navigating to / -> views.pages.dashboard_view.DashboardView
+2026-01-22 13:01:17,367 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 13:01:17,575 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 13:25:19,143 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=refresh_token "HTTP/2 200 OK"
+2026-01-22 13:25:19,368 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=refresh_token "HTTP/2 200 OK"
+2026-01-22 13:45:16,333 - flet_web.fastapi - INFO - Delete session (0 left): _1DRKLOZRPhqe3A4K_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 13:52:44,825 - root - INFO - Starting PowerFin...
+2026-01-22 13:52:44,825 - root - INFO - Initializing Supabase connection...
+2026-01-22 13:52:45,047 - root - INFO - Supabase client created successfully.
+2026-01-22 13:52:45,049 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 13:52:45,049 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 13:52:45,052 - root - ERROR - Error loading view for /login: type object 'UserTheme' has no attribute 'LINK'
+2026-01-22 13:55:58,361 - flet_web.fastapi - INFO - Session disconnected: _Xo5lFmM7GAJAyIqK_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 13:55:58,362 - flet_web.fastapi - INFO - Disposing FletApp: zYBdoWUs
+2026-01-22 13:55:58,474 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-22 13:55:58,476 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-22 13:58:00,428 - root - INFO - Starting PowerFin...
+2026-01-22 13:58:00,429 - root - INFO - Initializing Supabase connection...
+2026-01-22 13:58:00,644 - root - INFO - Supabase client created successfully.
+2026-01-22 13:58:00,647 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 13:58:00,650 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 13:58:00,665 - root - ERROR - Error loading view for /login: type object 'UserTheme' has no attribute 'LINK'
+2026-01-22 14:02:01,105 - flet_web.fastapi - INFO - Session disconnected: _jQU5rGc7X9aGVW4a_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 14:02:01,106 - flet_web.fastapi - INFO - Disposing FletApp: VdiwrsFr
+2026-01-22 14:02:01,197 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-22 14:02:01,198 - flet_web.fastapi - INFO - Deleting temp dir: C:\Users\USUARIO\AppData\Local\Temp\tmppbpv5vkc
+2026-01-22 14:02:01,202 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-22 14:02:06,832 - root - INFO - Starting PowerFin...
+2026-01-22 14:02:06,832 - root - INFO - Initializing Supabase connection...
+2026-01-22 14:02:07,067 - root - INFO - Supabase client created successfully.
+2026-01-22 14:02:07,067 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 14:02:07,068 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 14:02:07,138 - flet_web.fastapi - INFO - New FletApp: WoPcTmGQ
+2026-01-22 14:02:07,162 - flet_web.fastapi - INFO - New session created (2 total): _vCgfNdmjkpXpwRjG_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 14:02:07,166 - flet_web.fastapi - INFO - Start session: vCgfNdmjkpXpwRjG
+2026-01-22 14:02:07,169 - root - INFO - Starting PowerFin...
+2026-01-22 14:02:07,170 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 14:02:07,176 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 14:02:07,803 - flet_web.fastapi - INFO - Session disconnected: _QwBnnU0xY3PgNuEf_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 14:02:07,803 - flet_web.fastapi - INFO - Disposing FletApp: 7EZVOQ2E
+2026-01-22 14:02:23,660 - root - INFO - Attempting login for: jdrodriguez1000@gmail.com
+2026-01-22 14:02:25,127 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=password "HTTP/2 200 OK"
+2026-01-22 14:02:25,132 - root - INFO - Login successful for: jdrodriguez1000@gmail.com
+2026-01-22 14:02:26,956 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 14:02:26,961 - root - INFO - Applied language preference: es
+2026-01-22 14:02:26,963 - root - INFO - User 41640d2a-b172-4ece-a678-1b9172785667 logged in. Profile complete. Going to Dashboard.
+2026-01-22 14:02:26,965 - root - INFO - Navigating to / -> views.pages.dashboard_view.DashboardView
+2026-01-22 14:02:27,231 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 14:02:27,475 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 14:03:26,437 - root - INFO - Navigating to /construction -> views.pages.construction_view.ConstructionView
+2026-01-22 14:03:29,739 - root - INFO - Navigating to / -> views.pages.dashboard_view.DashboardView
+2026-01-22 14:03:30,181 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 14:03:30,600 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 14:03:33,124 - root - INFO - Navigating to /construction -> views.pages.construction_view.ConstructionView
+2026-01-22 14:03:34,738 - root - INFO - Navigating to / -> views.pages.dashboard_view.DashboardView
+2026-01-22 14:03:34,970 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 14:03:35,205 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 14:06:26,442 - root - INFO - Navigating to /construction -> views.pages.construction_view.ConstructionView
+2026-01-22 14:06:28,026 - root - INFO - Navigating to / -> views.pages.dashboard_view.DashboardView
+2026-01-22 14:06:28,637 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 14:06:29,058 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 14:08:20,173 - flet_web.fastapi - INFO - Session disconnected: _vCgfNdmjkpXpwRjG_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 14:08:20,174 - flet_web.fastapi - INFO - Disposing FletApp: WoPcTmGQ
+2026-01-22 14:08:20,285 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-22 14:08:20,287 - flet_web.fastapi - INFO - Deleting temp dir: C:\Users\USUARIO\AppData\Local\Temp\tmpzv7kzs3x
+2026-01-22 14:08:20,290 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-22 14:08:28,328 - root - INFO - Starting PowerFin...
+2026-01-22 14:08:28,328 - root - INFO - Initializing Supabase connection...
+2026-01-22 14:08:28,588 - root - INFO - Supabase client created successfully.
+2026-01-22 14:08:28,588 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 14:08:28,588 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 14:08:28,655 - flet_web.fastapi - INFO - New FletApp: APt6p7xY
+2026-01-22 14:08:28,671 - flet_web.fastapi - INFO - New session created (2 total): _9T1YekIK66AYWXZN_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 14:08:28,673 - flet_web.fastapi - INFO - Start session: 9T1YekIK66AYWXZN
+2026-01-22 14:08:28,674 - root - INFO - Starting PowerFin...
+2026-01-22 14:08:28,675 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 14:08:28,676 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 14:08:29,215 - flet_web.fastapi - INFO - Session disconnected: _zMC9hh9zhWG5asUR_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 14:08:29,217 - flet_web.fastapi - INFO - Disposing FletApp: E4rjgj75
+2026-01-22 14:08:43,194 - root - INFO - Attempting login for: jdrodriguez1000@gmail.com
+2026-01-22 14:08:44,239 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=password "HTTP/2 200 OK"
+2026-01-22 14:08:44,243 - root - INFO - Login successful for: jdrodriguez1000@gmail.com
+2026-01-22 14:08:45,786 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 14:08:45,791 - root - INFO - Applied language preference: es
+2026-01-22 14:08:45,793 - root - INFO - User 41640d2a-b172-4ece-a678-1b9172785667 logged in. Profile complete. Going to Dashboard.
+2026-01-22 14:08:45,793 - root - INFO - Navigating to / -> views.pages.dashboard_view.DashboardView
+2026-01-22 14:08:46,040 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 14:08:46,269 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 14:08:46,281 - root - ERROR - Error loading view for /: Text.__init__() got an unexpected keyword argument 'letter_spacing'
+2026-01-22 14:10:49,460 - flet_web.fastapi - INFO - Session disconnected: _9T1YekIK66AYWXZN_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 14:10:49,460 - flet_web.fastapi - INFO - Disposing FletApp: APt6p7xY
+2026-01-22 14:10:49,577 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-22 14:10:49,577 - flet_web.fastapi - INFO - Deleting temp dir: C:\Users\USUARIO\AppData\Local\Temp\tmp85ddjgr3
+2026-01-22 14:10:49,580 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-22 14:10:54,850 - root - INFO - Starting PowerFin...
+2026-01-22 14:10:54,850 - root - INFO - Initializing Supabase connection...
+2026-01-22 14:10:55,080 - root - INFO - Supabase client created successfully.
+2026-01-22 14:10:55,084 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 14:10:55,084 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 14:10:55,152 - flet_web.fastapi - INFO - New FletApp: 7SmsWvMM
+2026-01-22 14:10:55,167 - flet_web.fastapi - INFO - New session created (2 total): _bG5i5yISndkDmfq8_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 14:10:55,172 - flet_web.fastapi - INFO - Start session: bG5i5yISndkDmfq8
+2026-01-22 14:10:55,173 - root - INFO - Starting PowerFin...
+2026-01-22 14:10:55,174 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 14:10:55,175 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 14:10:55,733 - flet_web.fastapi - INFO - Session disconnected: _iQnxG4ZcA3aUGzwh_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 14:10:55,733 - flet_web.fastapi - INFO - Disposing FletApp: VRQDU5Vp
+2026-01-22 14:11:09,217 - root - INFO - Attempting login for: jdrodriguez1000@gmail.com
+2026-01-22 14:11:10,141 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=password "HTTP/2 200 OK"
+2026-01-22 14:11:10,145 - root - INFO - Login successful for: jdrodriguez1000@gmail.com
+2026-01-22 14:11:11,821 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 14:11:11,824 - root - INFO - Applied language preference: es
+2026-01-22 14:11:11,825 - root - INFO - User 41640d2a-b172-4ece-a678-1b9172785667 logged in. Profile complete. Going to Dashboard.
+2026-01-22 14:11:11,825 - root - INFO - Navigating to / -> views.pages.dashboard_view.DashboardView
+2026-01-22 14:11:12,182 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 14:11:12,402 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 14:15:19,667 - flet_web.fastapi - INFO - Session disconnected: _bG5i5yISndkDmfq8_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 14:15:19,669 - flet_web.fastapi - INFO - Disposing FletApp: 7SmsWvMM
+2026-01-22 14:15:19,762 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-22 14:15:19,762 - flet_web.fastapi - INFO - Deleting temp dir: C:\Users\USUARIO\AppData\Local\Temp\tmp9a5rhh9b
+2026-01-22 14:15:19,763 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-22 14:16:30,052 - root - INFO - Starting PowerFin...
+2026-01-22 14:16:30,053 - root - INFO - Initializing Supabase connection...
+2026-01-22 14:16:30,281 - root - INFO - Supabase client created successfully.
+2026-01-22 14:16:30,281 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 14:16:30,281 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 14:16:43,713 - root - INFO - Attempting login for: jdrodriguez1000@gmail.com
+2026-01-22 14:16:44,497 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=password "HTTP/2 200 OK"
+2026-01-22 14:16:44,502 - root - INFO - Login successful for: jdrodriguez1000@gmail.com
+2026-01-22 14:16:45,823 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 14:16:45,826 - root - INFO - Applied language preference: es
+2026-01-22 14:16:45,828 - root - INFO - User 41640d2a-b172-4ece-a678-1b9172785667 logged in. Profile complete. Going to Dashboard.
+2026-01-22 14:16:45,828 - root - INFO - Navigating to / -> views.pages.dashboard_view.DashboardView
+2026-01-22 14:16:46,097 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 14:16:46,310 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 14:20:33,760 - flet_web.fastapi - INFO - Session disconnected: _TKebnahm1rSaQ7L5_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 14:20:33,761 - flet_web.fastapi - INFO - Disposing FletApp: UGc16VHM
+2026-01-22 14:20:33,870 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-22 14:20:33,871 - flet_web.fastapi - INFO - Deleting temp dir: C:\Users\USUARIO\AppData\Local\Temp\tmpp360r821
+2026-01-22 14:20:33,874 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-22 14:20:50,052 - root - INFO - Starting PowerFin...
+2026-01-22 14:20:50,052 - root - INFO - Initializing Supabase connection...
+2026-01-22 14:20:50,272 - root - INFO - Supabase client created successfully.
+2026-01-22 14:20:50,274 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 14:20:50,274 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 14:21:15,993 - root - INFO - Attempting login for: jdrodriguez1000@gmail.com
+2026-01-22 14:21:16,913 - httpx - INFO - HTTP Request: POST https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/token?grant_type=password "HTTP/2 200 OK"
+2026-01-22 14:21:16,919 - root - INFO - Login successful for: jdrodriguez1000@gmail.com
+2026-01-22 14:21:18,426 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 14:21:18,430 - root - INFO - Applied language preference: es
+2026-01-22 14:21:18,431 - root - INFO - User 41640d2a-b172-4ece-a678-1b9172785667 logged in. Profile complete. Going to Dashboard.
+2026-01-22 14:21:18,434 - root - INFO - Navigating to / -> views.pages.dashboard_view.DashboardView
+2026-01-22 14:21:18,746 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-01-22 14:21:18,946 - httpx - INFO - HTTP Request: GET https://oiwjtxqzrfqebuwrynmz.supabase.co/rest/v1/profiles?select=%2A&id=eq.41640d2a-b172-4ece-a678-1b9172785667 "HTTP/2 200 OK"
+2026-01-22 14:24:00,510 - flet_web.fastapi - INFO - Session disconnected: _lqJG57e07hmDADUi_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 14:24:00,511 - flet_web.fastapi - INFO - Disposing FletApp: HtI8KIzm
+2026-01-22 14:24:00,608 - flet_web.fastapi - INFO - Shutting down Flet App Manager
+2026-01-22 14:24:00,608 - flet_web.fastapi - INFO - Deleting temp dir: C:\Users\USUARIO\AppData\Local\Temp\tmprtb7ycln
+2026-01-22 14:24:00,611 - flet_web.fastapi - INFO - Closing Flet web server...
+2026-01-22 14:24:09,367 - root - INFO - Starting PowerFin...
+2026-01-22 14:24:09,367 - root - INFO - Initializing Supabase connection...
+2026-01-22 14:24:09,600 - root - INFO - Supabase client created successfully.
+2026-01-22 14:24:09,600 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 14:24:09,600 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
+2026-01-22 14:24:09,662 - flet_web.fastapi - INFO - Temp dir created for patched index and manifest: C:\Users\USUARIO\AppData\Local\Temp\tmpy7as93fq
+2026-01-22 14:24:09,663 - flet_web.fastapi - INFO - Web root: C:\Users\USUARIO\AppData\Local\Programs\Python\Python312\Lib\site-packages\flet_web\web
+2026-01-22 14:24:09,663 - flet_web.fastapi - INFO - Assets dir: C:\Users\USUARIO\Documents\Proyectos\FinancApp\assets
+2026-01-22 14:24:09,966 - flet_web.fastapi - INFO - New FletApp: h1BGtamz
+2026-01-22 14:24:09,968 - flet_web.fastapi - INFO - New session created (2 total): _5H7GIWG5bDZ8keYk_60dce29cde85fd80e62d35e4be7e993918eb9c07
+2026-01-22 14:24:09,968 - flet_web.fastapi - INFO - Start session: 5H7GIWG5bDZ8keYk
+2026-01-22 14:24:09,971 - root - INFO - Starting PowerFin...
+2026-01-22 14:24:09,971 - root - INFO - App starting: Forcing navigation to /login
+2026-01-22 14:24:09,971 - root - INFO - Navigating to /login -> views.pages.login_view.LoginView
