@@ -146,7 +146,6 @@ class RegisterView:
         self.page.update()
 
     def render(self):
-        LINK_BLUE = "#0D47A1"
         
         def on_hover(e):
             if not e.control.disabled:
@@ -187,7 +186,7 @@ class RegisterView:
             ft.Row([
                 ft.Text(I18n.t("auth.register.already_have_account"), color=ft.Colors.GREY_500, size=13),
                 ft.TextButton(
-                    content=ft.Text(I18n.t("auth.register.login"), color=LINK_BLUE, weight=ft.FontWeight.BOLD, size=13),
+                    content=ft.Text(I18n.t("auth.register.login"), color=UserTheme.LINK, weight=ft.FontWeight.BOLD, size=13),
                     on_click=lambda _: self.router.navigate("/login")
                 )
             ], alignment=ft.MainAxisAlignment.CENTER),

@@ -21,11 +21,14 @@ class AuthService:
             if redirect_to:
                 options["email_redirect_to"] = redirect_to
 
-            res = self.db.auth.sign_up({
+            # Positional dictionary for compatibility with current supabase-py version
+            credentials = {
                 "email": email,
                 "password": password,
                 "options": options
-            })
+            }
+            res = self.db.auth.sign_up(credentials)
+            
             Logger.info(f"Signup successful for: {email}")
             return {"success": True, "user": res.user}
         except Exception as e:
@@ -39,12 +42,11 @@ class AuthService:
         """
         try:
             Logger.info(f"Attempting login for: {email}")
-            res = self.db.auth.sign_in_with_password(
-                {
-                    "email": email,
-                    "password": password
-                }
-            )
+            credentials = {
+                "email": email,
+                "password": password
+            }
+            res = self.db.auth.sign_in_with_password(credentials)
             Logger.info(f"Login successful for: {email}")
             return {"success": True, "user": res.user, "session": res.session}
         except Exception as e:
